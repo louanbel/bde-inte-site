@@ -268,7 +268,7 @@
       </trans-unit>
       <trans-unit id="2868428261922668772" datatype="html">
         <source>Du 24 août au </source>
-        <target>From august 24th to</target>
+        <target>From august 24 to</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">30</context>
@@ -276,7 +276,7 @@
       </trans-unit>
       <trans-unit id="627569994111675644" datatype="html">
         <source>10 septembre</source>
-        <target>september 10th</target>
+        <target>september 10</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">30</context>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="6277255051260713242" datatype="html">
         <source>août</source>
-        <source>25</source>
+        <target>25</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">67</context>

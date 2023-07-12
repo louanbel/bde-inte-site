@@ -1,0 +1,11 @@
+header {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 999;
+
+    .social {
+        display: flex;
+        gap: 30px;
+    }
+}
