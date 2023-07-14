@@ -1,10 +1,30 @@
 <header>
-  <div class="social">
-    <a href="https://facebook.com" target="_blank">
-      <img src="../assets/img/facebook.png" alt="facebook" width="50" />
-    </a>
-    <a href="https://instagram.com" target="_blank">
-      <img src="../assets/img/instagram.png" alt="instagram" width="50" />
-    </a>
+  <div class="header-items">
+    <!-- Burger menu -->
+    <button
+      (click)="toggleMenu()"
+      [class.open]="isMenuOpen"
+      class="burger-menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <img src="../../assets/img/logo.svg" alt="logo de l'intégration" class="logo"/>
+    <!-- Social media -->
+    <div class="social">
+      <a href="https://facebook.com" target="_blank">
+        <img src="../assets/img/facebook.png" alt="facebook" width="50" />
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="../assets/img/instagram.png" alt="instagram" width="50" />
+      </a>
+    </div>
   </div>
+  <ul [class.open]="isMenuOpen" class="menu-items">
+    <li>WEI</li>
+    <li>INTEGRATION</li>
+    <li>CAMPUS</li>
+    <li>ASSOS ET CLUBS</li>
+  </ul>
 </header>
