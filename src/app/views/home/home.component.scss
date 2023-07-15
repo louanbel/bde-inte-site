@@ -10,11 +10,10 @@
     left: 0;
     right: 0;
     bottom: 0;
+    height: 30vh;
     margin: auto;
     width: 70vw;
-    height: 30vh;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     gap: 10px;
 }
@@ -66,7 +65,8 @@
 @media (max-width: 900px) {
 
     .carousel-text-wrapper {
-        justify-content: space-between;
+        height: auto;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -74,7 +74,6 @@
     .carousel-caption {
         display: block;
         position: unset;
-        margin: auto;
 
         h2 {
             font-size: 40px;
@@ -87,5 +86,12 @@
 
     .carousel-action {
         width: 70vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-caption h2 {
+        font-size: 30px;
+        line-height: 50px;
     }
 }
