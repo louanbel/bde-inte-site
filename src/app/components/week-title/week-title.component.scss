@@ -1,0 +1,27 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .line {
+        height: 2px;
+        background-color: #DCB253;
+        flex-grow: 1;
+        &:first-child {
+            margin: auto 20px auto 5vw;
+        }
+        &:last-child {
+            margin: auto 5vw auto 20px;
+
+        }
+    }
+    h2 {
+        font-size: 30px;
+        margin: 0 20px;
+        color: #DCB253;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    img {
+        width: 50px;
+    }
+}

@@ -1,0 +1,114 @@
+:host {
+    width: 100vw;
+
+    .second-week,
+    .first-week {
+        app-week-title {
+            margin: 30px auto;
+        }
+
+        ul {
+            max-height: 200px;
+            padding: unset;
+            margin: auto 5vw;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                app-event-card {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .first-week {
+
+        ul {
+            gap: 10px;
+
+            li {
+                flex-basis: 25%;
+            }
+        }
+    }
+
+    .second-week {
+        ul {
+            flex-wrap: wrap;
+            gap: 15px;
+            li {
+                flex-basis: 30%;
+            }
+        }
+    }
+
+    .description {
+        text-align: center;
+        margin: 5vw 10vw auto 10vw;
+    }
+
+    .integration-header {
+        position: relative;
+
+        #banner,
+        #little-banner {
+            width: 100vw;
+            height: auto;
+        }
+
+        #little-banner {
+            display: none;
+        }
+
+        h1 {
+            position: absolute;
+            top: 20%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            line-height: 50px;
+        }
+
+
+    }
+
+    @media (max-width: 900px) {
+        .integration-header #little-banner {
+            display: block;
+        }
+
+        .integration-header h1 {
+            font-size: 60px;
+            line-height: 30px;
+        }
+
+        .integration-header #banner {
+            display: none;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .integration-header h1 {
+            font-size: 50px;
+            line-height: 30px;
+            top: 30%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .integration-header h1 {
+            font-size: 30px;
+            line-height: 20px;
+        }
+    }
+}

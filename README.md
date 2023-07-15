@@ -25,22 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## EN / FR language support
 
 To generate the messages file containing all the text of the website :
+
 1. Add i8n parameter to each tag that needs to be translated :
+
 ```html
-<button id="basic" type="button" mat-button i18n> <!-- <==== ici-->
+<button id="basic" type="button" mat-button i18n>
+  <!-- <==== ici-->
   Basic button
 </button>
-``` 
-2. Then use : 
+```
+
+2. Then use :
+
 ```zsh
 ng extrat-i18n
 ```
 
 3. Then copy the file `messages.xlf` and rename it `messages.en.xlf`.
-after each `<source>` tag, add a `<target>` tag containing the translation of the previous sentence :
+   after each `<source>` tag, add a `<target>` tag containing the translation of the previous sentence :
 
 ```xml
 <source> Basic button </source>
 <target> Bouton basique </target>
 ```
+
 ==> More detail : [Link](https://lokalise.com/blog/angular-i18n/)
+
+## Conventionnal width in media
+
+1. 900px
+2. 800px
+3. 650px

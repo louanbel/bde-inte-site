@@ -10,7 +10,11 @@
       <span></span>
       <span></span>
     </button>
-    <img src="../../assets/img/logo.svg" alt="logo de l'intégration" class="logo"/>
+    <img
+      src="../../assets/img/logo.svg"
+      alt="logo de l'intégration"
+      class="logo"
+    />
     <!-- Social media -->
     <div class="social">
       <a href="https://facebook.com" target="_blank">
@@ -22,9 +26,20 @@
     </div>
   </div>
   <ul [class.open]="isMenuOpen" class="menu-items">
-    <li>WEI</li>
-    <li>INTEGRATION</li>
-    <li>CAMPUS</li>
-    <li>ASSOS ET CLUBS</li>
+    <li><a href="" routerLink="/" routerLinkActive="active">ACCUEIL</a></li>
+    <li><a href="" routerLink="/wei" routerLinkActive="active">WEI</a></li>
+    <li>
+      <a href="" routerLink="/integration" routerLinkActive="active"
+        >INTEGRATION</a
+      >
+    </li>
+    <li>
+      <a href="" routerLink="/campus" routerLinkActive="active">CAMPUS</a>
+    </li>
+    <li>
+      <a href="" routerLink="/assos-et-club" routerLinkActive="active"
+        >ASSOS ET CLUBS</a
+      >
+    </li>
   </ul>
 </header>

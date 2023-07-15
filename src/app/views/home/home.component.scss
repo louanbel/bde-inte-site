@@ -1,22 +1,27 @@
-app-header {
-    // height: 100px;
-    // display: block;
-    position: absolute;
-    z-index: 999;
-}
-
 .c-img {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
 }
 
+.carousel-text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .carousel-action {
     width: 25vw;
     background-color: #3D53CD;
-    position: absolute;
-    top: 30%;
-    right: 15%;
     padding: 40px 30px;
 
     h3 {
@@ -32,10 +37,8 @@ app-header {
 }
 
 .carousel-caption {
-    left: 15%;
-    top: 30%;
-    right: unset;
-    bottom: unset;
+    position: unset;
+    display: block;
     margin: 0;
     padding: 0;
 
@@ -58,4 +61,31 @@ app-header {
     width: 10rem;
     height: 6rem;
     opacity: 1;
+}
+
+@media (max-width: 900px) {
+
+    .carousel-text-wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .carousel-action,
+    .carousel-caption {
+        display: block;
+        position: unset;
+        margin: auto;
+
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    .carousel-caption {
+        width: 70vw;
+    }
+
+    .carousel-action {
+        width: 70vw;
+    }
 }

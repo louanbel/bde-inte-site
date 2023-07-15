@@ -1,0 +1,59 @@
+<div class="integration-header">
+  <img
+    src="../../assets/img/dupont-ducon-banner.jpg"
+    alt="Bannière de la page de l'intégration"
+    id="banner"
+  />
+  <img
+    src="../../assets/img/dupont-ducon-mobile.jpg"
+    alt="Bannière de la page de l'intégration"
+    id="little-banner"
+  />
+  <h1 i18n>INTEGRATION</h1>
+</div>
+<p i18n class="description">
+  Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas
+  pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi
+  t’introduire à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le
+  WEI, deux week-ends phares de l’intégration à l’IMT Atlantique.
+</p>
+<div class="first-week">
+  <app-week-title>SEMAINE 1</app-week-title>
+  <ul>
+    <li>
+      <app-event-card [img]="'../assets/img/photo1_barbec.jpg'">JEUDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/photo2_abc.jpg'">VENDREDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/photo3_rallye.jpg'">SAMEDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/photo16_aprembds.jpg'">DIMANCHE</app-event-card>
+    </li>
+  </ul>
+</div>
+<div class="second-week">
+  <app-week-title>SEMAINE 2</app-week-title>
+  <ul class="first-week-list">
+    <li>
+      <app-event-card [img]="'../assets/img/wei.jpg'">LUNDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/inté.jpg'">MARDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/wei.jpg'">MERCREDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/wei.jpg'">JEUDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/inté.jpg'">VENDREDI</app-event-card>
+    </li>
+    <li>
+      <app-event-card [img]="'../assets/img/wei.jpg'">WEEK-END</app-event-card>
+    </li>
+  </ul>
+</div>
