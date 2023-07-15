@@ -6,6 +6,18 @@
       "name": "BRUNCH BDS",
       "hours": "11H - 14H",
       "description": "Viens te régaler en mangeant équilibré lors du brunch organisé par le Bureau des Sports ! Gaufres, crêpes, jus de fruits, cafés, oeufs, cakes ... Le plein de vitamines pour seulement 2€."
+    },
+    {
+      "img": "../assets/img/photo1_barbec.jpg",
+      "name": "VISITE DE NANTES BDA",
+      "hours": "13H - 18H",
+      "description": "Le Bureau des Arts organise une visite de Nantes à destination de tous ceux qui souhaitent découvrir la ville dans laquelle vous allez passer les 3 prochaines années."
+    },
+    {
+      "img": "../assets/img/photo1_barbec.jpg",
+      "name": "BARBECUE BDE",
+      "hours": "18H - 22H",
+      "description": ""
     }
   ]
 }

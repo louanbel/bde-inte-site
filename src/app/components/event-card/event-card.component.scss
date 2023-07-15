@@ -17,3 +17,19 @@
         padding: 7px;
     }
 }
+
+@media (max-width: 900px) {
+    :host p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 650px) {
+    :host p {
+        font-size: 15px;
+    }
+}
+// @media (max-width: 500px) {
+//     :host p {
+//         font-size: 15px;
+//     }
+// }
