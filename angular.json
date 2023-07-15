@@ -23,7 +23,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["en-US"],
             "outputPath": "dist/bde-inte-site",
             "index": "src/index.html",
             "main": "src/main.ts",
