@@ -1,3 +1,8 @@
+// Override size of modal
+::ng-deep .event-dialog {
+    max-width: 50vw !important;
+}
+
 :host {
     div[mat-dialog-title] {
         display: flex;
@@ -43,8 +48,12 @@
     }
 
 }
-
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
+    ::ng-deep .event-dialog {
+        max-width: 70vw !important;
+    }    
+}
+@media (max-width: 800px) {
     :host {
         .eventDetail {
             flex-direction: column;

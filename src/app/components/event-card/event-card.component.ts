@@ -20,6 +20,7 @@ export class EventCardComponent {
       data: {
         id: this.id,
       },
+      panelClass: 'event-dialog'
     });
   }
 }
