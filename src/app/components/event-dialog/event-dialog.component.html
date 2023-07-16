@@ -1,0 +1,17 @@
+<div mat-dialog-title>
+  <button mat-button mat-dialog-close>
+    <img src="../../../assets/img/close.png" width="20"/>
+  </button>
+</div>
+<mat-dialog-content>
+  <app-date-title>{{ dayEvents.day }}</app-date-title>
+  <ul>
+    <li *ngFor="let event of dayEvents.events">
+      <h4>{{ event.hours }} {{ event.name }}</h4>
+      <div class="eventDetail">
+        <img [src]="event.img" [alt]="event.name" />
+        <p>{{ event.description }}</p>
+      </div>
+    </li>
+  </ul>
+</mat-dialog-content>

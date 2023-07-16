@@ -124,7 +124,9 @@
 @media (max-width: 650px) {
     .logo {
         position: absolute;
-        right: 20px;
+        right: 0;
+        left: 0;
+        margin: auto;
         width: 50%;
     }
 

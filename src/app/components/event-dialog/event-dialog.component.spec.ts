@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WeekTitleComponent } from './week-title.component';
+import { EventDialogComponent } from './event-dialog.component';
 
-describe('WeekTitleComponent', () => {
-  let component: WeekTitleComponent;
-  let fixture: ComponentFixture<WeekTitleComponent>;
+describe('EventDialogComponent', () => {
+  let component: EventDialogComponent;
+  let fixture: ComponentFixture<EventDialogComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WeekTitleComponent ]
+      declarations: [ EventDialogComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WeekTitleComponent);
+    fixture = TestBed.createComponent(EventDialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

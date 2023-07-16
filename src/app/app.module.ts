@@ -12,8 +12,12 @@ import { IntegrationComponent } from './views/integration/integration.component'
 import { WeiComponent } from './views/wei/wei.component';
 import { AssosClubComponent } from './views/assos-club/assos-club.component';
 import { CampusComponent } from './views/campus/campus.component';
-import { WeekTitleComponent } from './components/week-title/week-title.component';
+import { DateTitleComponent } from './components/date-title/date-title.component';
 import { EventCardComponent } from './components/event-card/event-card.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { EventDialogComponent } from './components/event-dialog/event-dialog.component';
+import { HttpClientModule } from '@angular/common/http';
+
 registerLocaleData(localeFr);
 
 @NgModule({
@@ -25,10 +29,17 @@ registerLocaleData(localeFr);
     WeiComponent,
     AssosClubComponent,
     CampusComponent,
-    WeekTitleComponent,
+    DateTitleComponent,
     EventCardComponent,
+    EventDialogComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbCarouselModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbCarouselModule,
+    MatDialogModule,
+    HttpClientModule,
+  ],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
   bootstrap: [AppComponent],
 })

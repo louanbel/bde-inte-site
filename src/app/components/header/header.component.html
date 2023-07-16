@@ -26,18 +26,44 @@
     </div>
   </div>
   <ul [class.open]="isMenuOpen" class="menu-items">
-    <li><a href="" routerLink="/" routerLinkActive="active">ACCUEIL</a></li>
-    <li><a href="" routerLink="/wei" routerLinkActive="active">WEI</a></li>
     <li>
-      <a href="" routerLink="/integration" routerLinkActive="active"
+      <a (click)="toggleMenu()" href="" routerLink="/" routerLinkActive="active"
+        >ACCUEIL</a
+      >
+    </li>
+    <li>
+      <a
+        (click)="toggleMenu()"
+        href=""
+        routerLink="/wei"
+        routerLinkActive="active"
+        >WEI</a
+      >
+    </li>
+    <li>
+      <a
+        (click)="toggleMenu()"
+        href=""
+        routerLink="/integration"
+        routerLinkActive="active"
         >INTEGRATION</a
       >
     </li>
     <li>
-      <a href="" routerLink="/campus" routerLinkActive="active">CAMPUS</a>
+      <a
+        (click)="toggleMenu()"
+        href=""
+        routerLink="/campus"
+        routerLinkActive="active"
+        >CAMPUS</a
+      >
     </li>
     <li>
-      <a href="" routerLink="/assos-et-club" routerLinkActive="active"
+      <a
+        (click)="toggleMenu()"
+        href=""
+        routerLink="/assos-et-club"
+        routerLinkActive="active"
         >ASSOS ET CLUBS</a
       >
     </li>

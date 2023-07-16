@@ -1,2 +1,4 @@
-<p><ng-content></ng-content></p>
-<img [src]="img" alt="Image de la carte" />
+<div class="content" (click)="openDialog()">
+  <p><ng-content></ng-content></p>
+  <img [src]="img" alt="Image de la carte" />
+</div>

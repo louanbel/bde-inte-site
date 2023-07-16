@@ -2,11 +2,21 @@
     display: block;
     position: relative;
     border-bottom: 7px solid #ABABAB;
+
+    .content {
+        cursor: pointer;
+    }
+
+    .content,
     img {
         width: 100%;
         height: 100%;
+    }
+
+    img {
         object-fit: cover;
     }
+
     p {
         position: absolute;
         bottom: 5%;
@@ -23,11 +33,13 @@
         font-size: 20px;
     }
 }
+
 @media (max-width: 650px) {
     :host p {
         font-size: 15px;
     }
 }
+
 // @media (max-width: 500px) {
 //     :host p {
 //         font-size: 15px;
