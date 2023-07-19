@@ -17,6 +17,7 @@ import { EventCardComponent } from './components/event-card/event-card.component
 import { MatDialogModule } from '@angular/material/dialog';
 import { EventDialogComponent } from './components/event-dialog/event-dialog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ImageHeaderComponent } from './components/image-header/image-header.component';
 
 registerLocaleData(localeFr);
 
@@ -32,6 +33,7 @@ registerLocaleData(localeFr);
     DateTitleComponent,
     EventCardComponent,
     EventDialogComponent,
+    ImageHeaderComponent,
   ],
   imports: [
     BrowserModule,

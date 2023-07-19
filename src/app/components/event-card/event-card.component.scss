@@ -1,8 +1,12 @@
-
 :host {
     display: block;
     position: relative;
     border-bottom: 7px solid #ABABAB;
+    transition: border-color 0.2s ease;
+
+    &:hover {
+        border-color: #373ED4;
+    }
 
     .content {
         cursor: pointer;

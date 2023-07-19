@@ -1,0 +1,34 @@
+:host {
+    .content {
+        margin: auto 15vw;
+    }
+    .line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>div {
+            width: 50%;
+        }
+
+        .text {
+            text-align: center;
+            padding: 20px;
+
+            .underline {
+                border: solid 1px black;
+                margin: auto 30px 20px;
+            }
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+:host {
+    position: relative;
+    #banner {
+        width: 100vw;
+        height: auto;
+    }
+
+    h1 {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        line-height: 50px;
+    }
+
+    @media (max-width: 1200px) {
+        #banner {
+            object-fit: cover;
+            aspect-ratio: 5/2;
+        }
+    }
+
+    @media (max-width: 900px) {
+        h1 {
+            font-size: 60px;
+            line-height: 30px;
+        }
+    }
+
+    @media (max-width: 650px) {
+        h1 {
+            font-size: 50px;
+            line-height: 30px;
+            top: 30%;
+        }
+
+        #banner {
+            object-fit: cover;
+            aspect-ratio: 3/2;
+        }
+
+    }
+}
