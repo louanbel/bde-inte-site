@@ -6,6 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./image-header.component.scss']
 })
 export class ImageHeaderComponent {
-  @Input() title: string = '';
   @Input() img: string = '';
 }

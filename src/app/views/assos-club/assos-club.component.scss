@@ -1,0 +1,65 @@
+:host {
+    .associations {
+        margin: auto 20vw;
+
+        .title {
+            width: fit-content;
+
+            .underline {
+                width: 100%;
+                border: 1px solid black;
+            }
+
+            h2 {
+                font-size: 40px;
+                margin: 10px auto;
+            }
+        }
+
+        .line {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+            align-items: center;
+
+            h3 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            img {
+                width: 200px;
+
+                &#bda,
+                &#bdi {
+                    width: 150px;
+                }
+
+                height: 100%;
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 1200px) {
+    :host .associations {
+        margin: auto 10vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    :host .associations {
+        margin: auto 5vw;
+        .line {
+            img {
+                width: 150px;
+                &#bda, &#bdi {
+                    width: 125px;
+                }
+            }
+        }
+    }
+}
