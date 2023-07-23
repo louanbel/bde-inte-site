@@ -1,8 +1,8 @@
-<header [ngClass]="{ 'shrink': isShrink }">
+<header [ngClass]="{ shrink: isShrink }" #menu>
   <div class="header-items">
     <!-- Burger menu -->
     <button
-      (click)="toggleMenu()"
+      (click)="handleMenuClick()"
       [class.open]="isMenuOpen"
       class="burger-menu"
     >
@@ -25,15 +25,19 @@
       </a>
     </div>
   </div>
-  <ul [class.open]="isMenuOpen" class="menu-items">
+  <ul [class.open]="isMenuOpen" class="menu-items" >
     <li>
-      <a (click)="toggleMenu()" href="" routerLink="/" routerLinkActive="active"
+      <a
+        (click)="handleMenuClick()"
+        href=""
+        routerLink="/"
+        routerLinkActive="active"
         >ACCUEIL</a
       >
     </li>
     <li>
       <a
-        (click)="toggleMenu()"
+        (click)="handleLinkClick()"
         href=""
         routerLink="/wei"
         routerLinkActive="active"
@@ -42,7 +46,7 @@
     </li>
     <li>
       <a
-        (click)="toggleMenu()"
+        (click)="handleLinkClick()"
         href=""
         routerLink="/integration"
         routerLinkActive="active"
@@ -51,7 +55,7 @@
     </li>
     <li>
       <a
-        (click)="toggleMenu()"
+        (click)="handleLinkClick()"
         href=""
         routerLink="/campus"
         routerLinkActive="active"
@@ -60,7 +64,7 @@
     </li>
     <li>
       <a
-        (click)="toggleMenu()"
+        (click)="handleLinkClick()"
         href=""
         routerLink="/assos-et-club"
         routerLinkActive="active"
