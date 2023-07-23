@@ -1,3 +1,17 @@
+header.shrink {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .logo {
+        transition: width 0.5s ease;
+        width: 15%;
+    }
+
+    .burger-menu span {
+        background-color: black;
+    }
+}
+
 .header-items {
     display: flex;
     flex-direction: row;
@@ -6,7 +20,8 @@
     width: 100vw;
 
     .logo {
-        max-width: 50%;
+        transition: unset;
+        width: 20%;
     }
 
     .social {
@@ -26,7 +41,7 @@
     border: none;
     cursor: pointer;
     z-index: 1;
-    margin: 50px;
+    margin: 30px 50px;
     flex-shrink: 0;
 
     &.open span {
@@ -81,12 +96,14 @@
 
     li {
         text-align: center;
+
         a {
             color: black;
             display: block;
             text-decoration: none;
             width: fit-content;
             margin: auto;
+
             &:after {
                 content: '';
                 display: block;
@@ -115,20 +132,29 @@
 
 }
 
-@media (max-width: 800px) {
-    .logo {
-        max-width: 30%;
+@media (max-width: 1200px) {
+    :host .header-items .logo {
+        width: 30%;
+    }
+
+    :host .header-items.shrink .logo {
+        width: 30%;
     }
 }
 
 @media (max-width: 650px) {
-    .logo {
+    :host .header-items .logo {
         position: absolute;
         right: 0;
         left: 0;
         margin: auto;
         width: 50%;
     }
+
+    :host .header-items.shrink .logo {
+        width: 50%;
+    }
+
 
     .social {
         display: none !important;
@@ -138,13 +164,13 @@
         margin: 30px !important;
         width: 40px;
         height: 30px;
-    
+
     }
 
     .burger-menu.open span:nth-child(1) {
         transform: translateY(13px) rotate(45deg);
     }
-    
+
 
     .header-items {
         justify-content: flex-start;
@@ -157,6 +183,7 @@
         height: 100vh;
         transition: width 1s ease;
         top: 0;
+
         li {
             margin-bottom: 20px;
         }
