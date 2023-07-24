@@ -1,23 +1,23 @@
 {
-  "day": "JEUDI 24",
+  "day": "DIMANCHE 27",
   "events": [
     {
-      "img": "../assets/img/photo10_brunchbds.jpg",
-      "name": "BRUNCH BDS",
+      "img": "../assets/img/photo15_brunchbda.jpg",
+      "name": "BRUNCH BDA",
       "hours": "11H - 14H",
-      "description": "Viens te régaler en mangeant équilibré lors du brunch organisé par le Bureau des Sports ! Gaufres, crêpes, jus de fruits, cafés, oeufs, cakes ... Le plein de vitamines pour seulement 2€."
+      "description": "Le BDA te propose un Summer Brunch, de quoi te remettre de la journée d'hier, et bien commencer celle d'aujourd'hui ! Tu pourras aussi regarder un film diffusé à la MDE."
     },
     {
-      "img": "../assets/img/photo11_visitebda.jpg",
-      "name": "VISITE DE NANTES BDA",
-      "hours": "13H - 18H",
-      "description": "Le Bureau des Arts organise une visite de Nantes à destination de tous ceux qui souhaitent découvrir la ville dans laquelle vous allez passer les 3 prochaines années."
+      "img": "../assets/img/photo16_aprembds.jpg",
+      "name": "APREM BDS",
+      "hours": "14H - 18H",
+      "description": "Le BDS te propose une après-midi sportive ! Au programme, beach volley, spikeball, ping pong, ultimate... De quoi te familiariser avec les sports phares de l'IMT ! "
     },
     {
-      "img": "../assets/img/photo1_barbec.jpg",
-      "name": "BARBECUE BDE",
-      "hours": "18H - 22H",
-      "description": "Ne manque surtout pas la première soirée à IMT Atlantique ! Le Bureau des Eleves te propose un barbecue gratuit qui te permettra de faire tes premières rencontres."
+      "img": "../assets/img/photo17_cinemines.jpg",
+      "name": "CINEMINES",
+      "hours": "20H - 22H30",
+      "description": "Le club des cinéphiles du BDA projette un film à la MDE, comme tous les dimanches soirs ! Des popcorns sont disponibles, alors ramène ton écocup."
     }
   ]
 }
