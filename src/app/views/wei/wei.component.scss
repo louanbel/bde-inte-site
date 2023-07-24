@@ -40,6 +40,10 @@
     .info-left{
       display: flex;
       flex-direction: column;
+      width: 50%;
+      P {
+        font-size: 1.2rem;
+      }
     }
   }
 
