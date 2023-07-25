@@ -6,19 +6,19 @@
     width: 100%;
 
     .text {
-      width: 30%;
+      //width: 40vw;
       text-align: center;
       padding: 20px;
-      line-height: 2;
+      line-height: 1.6;
+    }
 
+    h2 {
+      margin: 20px;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+    }
 
-      h2 {
-        margin: 20px;
-        font-size: 3rem;
-      }
-      P {
-        font-size: 1.2rem;
-      }
+    p {
+      font-size: clamp(1rem, 2vw, 1.2rem);
     }
 
   }
@@ -26,26 +26,128 @@
   .separator{
     display: flex;
     justify-content: center;
-    width: 100%;
     background-color: #000;
-    img {
+
+    .img-separator{
       width: 100%;
-      object-fit: contain;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
     }
   }
   .info{
     display: flex;
+    justify-content: space-evenly;
+    margin: 4vw 0 4vw 0;
+  .info-left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
 
-
-    .info-left{
-      display: flex;
+    .info-left-content {
+      display: inline-flex;
       flex-direction: column;
-      width: 50%;
-      P {
-        font-size: 1.2rem;
+      width: min-content;
+      min-width: 80%;
+
+      .info-title {
+        width: 30vw;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .info-text {
+
+        P {
+          font-size: clamp(1rem, 2vw, 2.2rem);
+          margin: 2vw;
+          line-height: 1.6;
+        }
+      }
+
+      .info-inscription {
+        display: flex;
+        width: fit-content;
+        align-self: center;
+        .inscription-btn {
+          height: fit-content;
+          padding: 15px 20px;
+          color: white;
+          border-radius: 50px;
+          border: 1px solid #000;
+          background: #000;
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          font-size: clamp(0.6rem, 2vw, 2.2rem);
+          font-style: normal;
+          font-weight: lighter;
+          line-height: normal;
+          letter-spacing: 3.78px;
+          text-decoration-line: underline;
+        }
+
+        .arrow {
+          align-self: end;
+          margin: 20px 20px 0 0;
+        }
+
       }
     }
   }
+  .info-right {
+    display: flex;
+    justify-content: center;
+    margin: 4vw 0 4vw 0;
+  }
+
+  }
+
+  @media (max-width: 1000px) {
+    .info{
+      flex-direction: column;
+
+      .info-left{
+        width: 100%;
+
+        .info-left-content{
+          width: 100%;
+        .info-title {
+          width: 70vw;
+        }
+
+          .info-inscription{
+            .inscription-btn{
+
+            }
+            .arrow > img{
+              width: 7vw;
+            }
+          }
+        }
+      }
+
+      .info-right{
+        width: 100%;
+
+      }
+    }
+
+
+  }
+
+  @media (max-width: 650px) {
+
+
+  }
+
+  @media (max-width: 500px) {
+
+  }
+
+
 
 }
 
