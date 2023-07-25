@@ -1,26 +1,72 @@
 :host {
-    .associations {
-        margin: auto 20vw;
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        margin-bottom: 30px;
 
-        .title {
-            width: fit-content;
+        .underline {
+            width: 90%;
+            border: 1px solid black;
+        }
 
-            .underline {
-                width: 100%;
-                border: 1px solid black;
+        h2 {
+            font-size: 40px;
+            margin: 50px auto 15px;
+        }
+    }
+
+    .clubs {
+        margin: auto 25vw;
+
+        .club {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+
+            img {
+                width: 50%;
+                height: auto;
+                aspect-ratio: 3/2;
+                object-fit: cover;
             }
 
-            h2 {
-                font-size: 40px;
-                margin: 10px auto;
+            .detail {
+                width: 50%;
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
             }
         }
+
+        .reverse {
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+
+            .detail {
+                text-align: left;
+            }
+        }
+    }
+
+    .associations {
+        margin: auto 25vw;
 
         .line {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            gap: 30px;
             align-items: center;
 
             h3 {
@@ -45,21 +91,65 @@
 }
 
 @media (max-width: 1200px) {
-    :host .associations {
+
+    :host .associations,
+    :host .clubs {
         margin: auto 10vw;
     }
 }
 
 @media (max-width: 1000px) {
+
     :host .associations {
         margin: auto 5vw;
+    }
+
+    :host .clubs {
+        margin: auto 0;
+
+        .title {
+            margin: 20px 5vw;
+        }
+    }
+
+    :host .associations {
         .line {
             img {
                 width: 150px;
-                &#bda, &#bdi {
+
+                &#bda,
+                &#bdi {
                     width: 125px;
                 }
             }
         }
     }
+}
+
+@media (max-width:800px) {
+    :host .clubs .club img {
+        height: 200px;
+    }
+
+    :host .clubs .club .detail {
+
+        .name:first-child {
+            margin-top: 10px;
+        }
+
+        .name:last-child {
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 0;
+        }
+    }
+
 }
