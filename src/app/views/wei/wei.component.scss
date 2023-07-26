@@ -1,5 +1,5 @@
 :host {
-  .presentation-wei{
+  .presentation-wei {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,87 +22,92 @@
 
   }
 
-  .separator{
+  .separator {
     display: flex;
     justify-content: center;
     background-color: #000;
 
-    .img-separator{
+    .img-separator {
       width: 100%;
+
       img {
         width: 100%;
         object-fit: contain;
       }
     }
   }
-  .info{
+
+  .info {
     display: flex;
     justify-content: space-evenly;
     margin: 4vw 0 4vw 0;
-  .info-left {
-    display: flex;
-    justify-content: center;
-    width: 50%;
 
-    .info-left-content {
-      display: inline-flex;
-      flex-direction: column;
-      width: min-content;
-      min-width: 80%;
+    .info-left {
+      display: flex;
+      justify-content: center;
+      width: 50%;
 
-      .info-title {
-        width: 30vw;
+      .info-left-content {
+        display: inline-flex;
+        flex-direction: column;
+        width: min-content;
+        min-width: 80%;
 
-        img {
-          width: 100%;
-          object-fit: contain;
-        }
-      }
+        .info-title {
+          width: 30vw;
 
-      .info-text {
-
-        P {
-          font-size: clamp(0.8rem, 2vw, 2.2rem);
-          margin: 2vw;
-          line-height: 1.6;
-        }
-      }
-
-      .info-inscription {
-        display: flex;
-        width: fit-content;
-        align-self: center;
-        .inscription-btn {
-          height: fit-content;
-          padding: 15px 20px;
-          color: white;
-          border-radius: 50px;
-          border: 1px solid #000;
-          background: #000;
-          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-          font-size: clamp(0.6rem, 2vw, 2.2rem);
-          font-style: normal;
-          font-weight: lighter;
-          line-height: normal;
-          letter-spacing: 3.78px;
-          text-decoration-line: underline;
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
         }
 
-        .arrow {
-          align-self: end;
-          margin: 20px 20px 0 0;
+        .info-text {
+
+          P {
+            font-size: clamp(0.8rem, 2vw, 2.2rem);
+            margin: 2vw;
+            line-height: 1.6;
+          }
         }
 
+        .info-inscription {
+          display: flex;
+          width: fit-content;
+          align-self: center;
+
+          .inscription-btn {
+            height: fit-content;
+            padding: 15px 20px;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid #000;
+            background: #000;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            font-size: clamp(0.6rem, 2vw, 2.2rem);
+            font-style: normal;
+            font-weight: lighter;
+            line-height: normal;
+            letter-spacing: 3.78px;
+            text-decoration-line: underline;
+          }
+
+          .arrow {
+            align-self: end;
+            margin: 20px 20px 0 0;
+          }
+
+        }
       }
     }
-  }
+
     .info-right {
       display: flex;
       justify-content: center;
     }
   }
 
-  .ne-pas-oublier{
+  .ne-pas-oublier {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,11 +129,11 @@
       }
     }
 
-    .A-cards{
+    .A-cards {
       display: flex;
       justify-content: space-evenly;
 
-      .A-card-img{
+      .A-card-img {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,7 +142,7 @@
         height: auto;
         margin: 2rem;
 
-        h2{
+        h2 {
           font-size: clamp(1rem, 4vw, 2rem);
           background: #D4D4D4;
           width: fit-content;
@@ -150,7 +155,8 @@
           height: auto;
         }
       }
-      .A-card-left{
+
+      .A-card-left {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -158,18 +164,20 @@
         height: 100%;
 
       }
-      .A-card-right{
+
+      .A-card-right {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        .list-btn-outer{
+
+        .list-btn-outer {
           border: solid 5px black;
           display: flex;
           width: fit-content;
           margin: 10px;
 
-          .list-btn{
+          .list-btn {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -179,7 +187,7 @@
             text-decoration: none;
             padding: 10px 20px 10px 20px;
 
-            p{
+            p {
               font-size: clamp(0.6rem, 3vw, 1.4rem);
               margin: 0;
               font-weight: bold;
@@ -187,7 +195,8 @@
               font-family: Plus Jakarta Sans;
               margin-left: 10px;
             }
-            img{
+
+            img {
               width: 25px;
               height: auto;
             }
@@ -200,12 +209,12 @@
 
 
   @media (max-width: 1000px) {
-    .info-right{
-      .right-img{
+    .info-right {
+      .right-img {
         max-width: 300px;
         height: auto;
 
-        img{
+        img {
           width: 100%;
           height: auto;
         }
@@ -215,45 +224,46 @@
   }
 
   @media (max-width: 850px) {
-    .info{
+    .info {
 
-      .info-left{
-        .info-left-content{
+      .info-left {
+        .info-left-content {
 
-        .info-title {
-          width: 40vw;
-        }
+          .info-title {
+            width: 40vw;
+          }
 
-          .info-inscription{
-            .inscription-btn{
+          .info-inscription {
+            .inscription-btn {
 
             }
-            .arrow > img{
+
+            .arrow > img {
               width: 6vw;
             }
           }
         }
       }
 
-      .info-right{
+      .info-right {
         //width: 100%;
 
 
-        .right-img{
+        .right-img {
           //width: 100%;
           max-width: 250px;
           //height: auto;
 
-          img{
+          img {
             width: 100%;
             height: auto;
           }
         }
       }
     }
-    .ne-pas-oublier{
-      .A-cards{
-        .A-card-img{
+    .ne-pas-oublier {
+      .A-cards {
+        .A-card-img {
           max-width: 40vw;
           margin: 0;
         }
@@ -264,62 +274,64 @@
   }
 
   @media (max-width: 500px) {
-    .info{
+    .info {
       flex-direction: column;
 
-      .info-left{
+      .info-left {
         width: 100%;
 
-        .info-left-content{
+        .info-left-content {
           width: 100%;
+
           .info-title {
             width: 60vw;
           }
 
-          .info-inscription{
-            .inscription-btn{
+          .info-inscription {
+            .inscription-btn {
 
             }
-            .arrow > img{
+
+            .arrow > img {
               width: 6vw;
             }
           }
         }
       }
 
-      .info-right{
+      .info-right {
         width: 100%;
 
 
-        .right-img{
+        .right-img {
           width: 100%;
           max-width: 200px;
           height: auto;
           margin: 10vw;
 
-          img{
+          img {
             width: 100%;
             height: auto;
           }
         }
       }
     }
-    .ne-pas-oublier{
-      .A-text{
+    .ne-pas-oublier {
+      .A-text {
         padding: 0;
       }
-      .A-cards{
+
+      .A-cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        .A-card-img{
+        .A-card-img {
           max-width: 60vw;
         }
       }
     }
   }
-
 
 
 }
