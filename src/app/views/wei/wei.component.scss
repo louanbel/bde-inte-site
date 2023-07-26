@@ -6,7 +6,6 @@
     width: 100%;
 
     .text {
-      //width: 40vw;
       text-align: center;
       padding: 20px;
       line-height: 1.6;
@@ -14,11 +13,11 @@
 
     h2 {
       margin: 20px;
-      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-size: clamp(1.6rem, 4vw, 3rem);
     }
 
     p {
-      font-size: clamp(1rem, 2vw, 1.2rem);
+      font-size: clamp(0.8rem, 2vw, 1.2rem);
     }
 
   }
@@ -63,7 +62,7 @@
       .info-text {
 
         P {
-          font-size: clamp(1rem, 2vw, 2.2rem);
+          font-size: clamp(0.8rem, 2vw, 2.2rem);
           margin: 2vw;
           line-height: 1.6;
         }
@@ -97,15 +96,174 @@
       }
     }
   }
-  .info-right {
-    display: flex;
-    justify-content: center;
-    margin: 4vw 0 4vw 0;
+    .info-right {
+      display: flex;
+      justify-content: center;
+    }
   }
 
+  .ne-pas-oublier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 4vw;
+
+    .A-text {
+      text-align: center;
+      padding: 20px;
+      line-height: 1.6;
+
+      h1 {
+        margin: 20px;
+        font-size: clamp(1.6rem, 4vw, 3rem);
+      }
+
+      p {
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
+      }
+    }
+
+    .A-cards{
+      display: flex;
+      justify-content: space-evenly;
+
+      .A-card-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 30vw;
+        height: auto;
+        margin: 2rem;
+
+        h2{
+          font-size: clamp(1rem, 4vw, 2rem);
+          background: #D4D4D4;
+          width: fit-content;
+          padding: 1px;
+          text-align: center;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .A-card-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+
+      }
+      .A-card-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        .list-btn-outer{
+          border: solid 5px black;
+          display: flex;
+          width: fit-content;
+          margin: 10px;
+
+          .list-btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px 10px 20px;
+
+            p{
+              font-size: clamp(0.6rem, 3vw, 1.4rem);
+              margin: 0;
+              font-weight: bold;
+              letter-spacing: 3px;
+              font-family: Plus Jakarta Sans;
+              margin-left: 10px;
+            }
+            img{
+              width: 25px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+
   }
+
 
   @media (max-width: 1000px) {
+    .info-right{
+      .right-img{
+        max-width: 300px;
+        height: auto;
+
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+  }
+
+  @media (max-width: 850px) {
+    .info{
+
+      .info-left{
+        .info-left-content{
+
+        .info-title {
+          width: 40vw;
+        }
+
+          .info-inscription{
+            .inscription-btn{
+
+            }
+            .arrow > img{
+              width: 6vw;
+            }
+          }
+        }
+      }
+
+      .info-right{
+        //width: 100%;
+
+
+        .right-img{
+          //width: 100%;
+          max-width: 250px;
+          //height: auto;
+
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+    .ne-pas-oublier{
+      .A-cards{
+        .A-card-img{
+          max-width: 40vw;
+          margin: 0;
+        }
+      }
+    }
+
+
+  }
+
+  @media (max-width: 500px) {
     .info{
       flex-direction: column;
 
@@ -114,16 +272,16 @@
 
         .info-left-content{
           width: 100%;
-        .info-title {
-          width: 70vw;
-        }
+          .info-title {
+            width: 60vw;
+          }
 
           .info-inscription{
             .inscription-btn{
 
             }
             .arrow > img{
-              width: 7vw;
+              width: 6vw;
             }
           }
         }
@@ -132,19 +290,34 @@
       .info-right{
         width: 100%;
 
+
+        .right-img{
+          width: 100%;
+          max-width: 200px;
+          height: auto;
+          margin: 10vw;
+
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
       }
     }
+    .ne-pas-oublier{
+      .A-text{
+        padding: 0;
+      }
+      .A-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-
-  }
-
-  @media (max-width: 650px) {
-
-
-  }
-
-  @media (max-width: 500px) {
-
+        .A-card-img{
+          max-width: 60vw;
+        }
+      }
+    }
   }
 
 
