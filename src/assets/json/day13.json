@@ -1,17 +1,20 @@
 {
-  "day": "JEUDI 07",
+  "day": "MERCREDI 06",
   "events": [
     {
-      "img": "../assets/img/photo31_olimtpe.png",
-      "name": "AFTERWORK OL.IMT.PE",
-      "hours": "16H - 18H",
-      "description": "Ol.imt.pe est l'association qui lutte contre les VSS sur le campus, et notamment pendant les soirées. Tu pourras te renseigner sur l'association pendant cet afterwork, et poser toutes les questions que tu souhaites. Une table ronde sera aussi organisée afin de discuter sur la gestion de ces problèmes en général."
+      "img": "../assets/img/photo29_asf.jpg",
+      "name": "AFTERWORK ASF",
+      "hours": "17H - 19H",
+      "description": "Renseigne toi sur l'ASF lors de cet afterwork ! L'Atlantique Sans Frontières est l'association caritative de l'école, qui réalise des évènements à différentes échelles (mondiales et locales). Si tu es tenté par une aventure humaine, c'est l'association qu'il te faut ! "
     },
     {
-      "img": "../assets/img/photo32_oenologie.png",
-      "name": "AFTERWORK OENOLOGIE",
-      "hours": "19H - 21H",
-      "description": "Découvre la Cave à V'IMT, le club oenologie de l'IMT ! Le club t'invite à goûter des vins régionaux, tout en te donnant des conseils et astuces pour décrypter le vin. L'évènement sera accompagné d'un plateau de fromages ainsi que d'un DJ set ! "
+      "img": "../assets/img/photo11_visitebda.jpg",
+      "name": "TONUS BDE",
+      "hours": "21H - 03H",
+      "description": "description à faire et image à changer"
     }
   ]
 }
+
+
+

@@ -1,17 +1,12 @@
 {
-  "day": "LUNDI 04",
+  "day": "WEEKEND",
   "events": [
     {
-      "img": "../assets/img/photo26_kulturap.png",
-      "name": "AFTERWORK KULTURAP",
-      "hours": "18H - 20H",
-      "description": "Découvre un des clubs les plus emblématiques de l'école : Kulturap ! Pendant cet afterwork, de nombreux jeux seront proposés autour du rap. N'hésite pas à les rejoindre si tu souhaites produire des morceaux de rap !"
-    },
-    {
-      "img": "../assets/img/photo11_visitebda.jpg",
-      "name": "SOIREE BDA",
-      "hours": "21H - 03H",
-      "description": "description à faire et image à changer"
+      "img": "../assets/img/photo9_feu.jpg",
+      "name": "WEC",
+      "hours": "",
+      "description": "C'est le Week End de Cohésion !  Tu vas pouvoir rencontrer l'ensemble de ta promo durant ce week-end, car les Brestois arrivent à Nantes. 
+Profite des évènements organisés et découvre tes amis Brestois ! ESPRIT FUSIONNNNN "
     }
   ]
 }
