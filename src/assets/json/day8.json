@@ -1,23 +1,17 @@
 {
-  "day": "JEUDI 24",
+  "day": "JEUDI 31",
   "events": [
     {
-      "img": "../assets/img/photo10_brunchbds.jpg",
-      "name": "BRUNCH BDS",
-      "hours": "11H - 14H",
-      "description": "Viens te régaler en mangeant équilibré lors du brunch organisé par le Bureau des Sports ! Gaufres, crêpes, jus de fruits, cafés, oeufs, cakes ... Le plein de vitamines pour seulement 2€."
+      "img": "../assets/img/ja_patisserie.png",
+      "name": "AFTERWORK JA / CLUB PATISSERIE",
+      "hours": "18H - 20H",
+      "description": "Deux présentations sont au programme de cet afterwork !  Tu pourras participer au club pâtisserie qui régale nos papilles, ou t'informer sur la Junior Atlantique autour de jeux !"
     },
     {
-      "img": "../assets/img/photo11_visitebda.jpg",
-      "name": "VISITE DE NANTES BDA",
-      "hours": "13H - 18H",
-      "description": "Le Bureau des Arts organise une visite de Nantes à destination de tous ceux qui souhaitent découvrir la ville dans laquelle vous allez passer les 3 prochaines années."
-    },
-    {
-      "img": "../assets/img/photo1_barbec.jpg",
-      "name": "BARBECUE BDE",
-      "hours": "18H - 22H",
-      "description": "Ne manque surtout pas la première soirée à IMT Atlantique ! Le Bureau des Eleves te propose un barbecue gratuit qui te permettra de faire tes premières rencontres."
+      "img": "../assets/img/photo23_underwater.jpg",
+      "name": "TONUS BDE",
+      "hours": "21H - 3H",
+      "description": "description à faire"
     }
   ]
 }
