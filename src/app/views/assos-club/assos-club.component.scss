@@ -14,11 +14,19 @@
         h2 {
             font-size: 40px;
             margin: 50px auto 15px;
+            line-height: normal;
+            text-align: center;
         }
     }
 
     .clubs {
         margin: auto 25vw;
+
+        .description {
+            font-size: 25px;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
 
         .club {
             display: flex;
@@ -40,12 +48,22 @@
                 justify-content: center;
                 gap: 15px;
 
+                .name:first-child {
+                    margin-top: 10px;
+                }
+
+                .name:last-child {
+                    margin-bottom: 10px;
+                }
+
                 h3 {
-                    font-size: 30px;
+                    font-size: 35px;
+                    font-weight: 500;
                 }
 
                 p {
-                    font-size: 20px;
+                    font-size: 25px;
+                    line-height: 30px;
                 }
             }
         }
@@ -107,6 +125,11 @@
     :host .clubs {
         margin: auto 0;
 
+        .description {
+            margin: 30px 30px;
+            font-size: 20px;
+        }
+
         .title {
             margin: 20px 5vw;
         }
@@ -133,13 +156,6 @@
 
     :host .clubs .club .detail {
 
-        .name:first-child {
-            margin-top: 10px;
-        }
-
-        .name:last-child {
-            margin-bottom: 10px;
-        }
 
         h3 {
             font-size: 25px;
