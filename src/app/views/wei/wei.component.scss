@@ -106,7 +106,20 @@
       justify-content: center;
     }
   }
+  .A-text {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
 
+    h1 {
+      margin: 20px;
+      font-size: clamp(1.6rem, 4vw, 3rem);
+    }
+
+    p {
+      font-size: clamp(0.8rem, 2vw, 1.2rem);
+    }
+  }
   .ne-pas-oublier {
     display: flex;
     flex-direction: column;
@@ -114,20 +127,7 @@
     width: 100%;
     padding: 4vw;
 
-    .A-text {
-      text-align: center;
-      padding: 20px;
-      line-height: 1.6;
 
-      h1 {
-        margin: 20px;
-        font-size: clamp(1.6rem, 4vw, 3rem);
-      }
-
-      p {
-        font-size: clamp(0.8rem, 2vw, 1.2rem);
-      }
-    }
 
     .A-cards {
       display: flex;
