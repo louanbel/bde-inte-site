@@ -1,11 +1,20 @@
 {
-  "day": "MARDI 05",
+  "day": "LUNDI 04",
   "events": [
     {
-      "img": "../assets/img/photo28_bdi.png",
-      "name": "AFTERWORK BDI",
-      "hours": "11H - 14H",
-      "description": "C'est au tour du BDI de se présenter ! Pendant cet afterwork, tu pourras te renseigner sur les différentes activités du BDI tout en mangeant des délicieux snacks."
+      "img": "../assets/img/photo26_kulturap.png",
+      "name": "AFTERWORK KULTURAP",
+      "hours": "18H - 20H",
+      "description": "Découvre un des clubs les plus emblématiques de l'école : Kulturap ! Pendant cet afterwork, de nombreux jeux seront proposés autour du rap. N'hésite pas à les rejoindre si tu souhaites produire des morceaux de rap !"
+    },
+    {
+      "img": "../assets/img/photo11_visitebda.jpg",
+      "name": "SOIREE BDA",
+      "hours": "21H - 03H",
+      "description": "description à faire et image à changer"
     }
   ]
 }
+
+
+
