@@ -1,6 +1,91 @@
 :host {
     width: 100vw;
 
+    .referalContent {
+        padding: 0 20vw 100px;
+        background: rgb(92, 92, 92);
+        background: linear-gradient(180deg, rgba(173, 173, 173, 100) 0%, rgba(255, 255, 255, 1) 100%);
+
+        .description {
+            margin: 0 0;
+        }
+
+        .line {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            img {
+                width: 30%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .step {
+                flex-basis: 70%;
+                background-color: #EDEBEB;
+                border-radius: 10px;
+                padding: 30px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+                p {
+                    font-size: 20px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin: 0 0;
+                }
+
+                .gDocStep {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        width: 150px;
+                    }
+                }
+
+                h2 {
+                    background-color: #D9D9D9;
+                    width: fit-content;
+                    border-radius: 10px;
+                    padding: 5px 20px;
+                }
+            }
+        }
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 40px;
+            }
+
+            .underline {
+                width: 50%;
+                border: solid 1px black;
+                margin: auto 30px 20px;
+            }
+
+        }
+
+        .head {
+            padding: 50px;
+
+            p {
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+
+    }
+
     .second-week,
     .first-week,
     .third-week {
@@ -44,6 +129,7 @@
     }
 
     .description {
+        font-size: 20px;
         text-align: center;
         line-height: 30px;
         margin: 5vw 10vw auto 10vw;
@@ -53,7 +139,27 @@
         position: relative;
     }
 
+    @media (max-width: 1400px) {
+        .referalContent {
+            padding: 0 10vw 100px;
+        }
+    }
+
     @media (max-width: 900px) {
+        .referalContent {
+            padding: 0 5vw 100px;
+
+            .line {
+                align-items: center;
+
+                img {
+                    object-fit: unset;
+                    width: 30%;
+                    height: auto;
+                }
+            }
+        }
+
         .integration-header #little-banner {
             display: block;
         }
@@ -68,6 +174,25 @@
         }
     }
 
+    @media (max-width: 800px) {
+        .referalContent {
+            padding: 0 5vw 100px;
+
+            .line {
+                flex-direction: column;
+
+                &.imgLast {
+                    flex-direction: column-reverse;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
     @media (max-width: 650px) {
 
         .first-week,
@@ -76,6 +201,7 @@
 
             ul {
                 flex-wrap: wrap;
+
                 li {
                     width: calc(50% - 10px);
                 }

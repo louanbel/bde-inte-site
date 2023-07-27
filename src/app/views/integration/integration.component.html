@@ -1,7 +1,6 @@
-<app-image-header
-  [img]="'../../assets/img/dupont-ducon-banner.jpg'"
->INTEGRATION
-</app-image-header>
+<app-image-header [img]="'../../assets/img/dupont-ducon-banner.jpg'"
+  >INTEGRATION</app-image-header
+>
 <p i18n class="description">
   Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas
   pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi
@@ -13,27 +12,23 @@
   <ul>
     <li>
       <app-event-card [id]="1" [img]="'../assets/img/photo1_barbec.jpg'"
-      >JEUDI
-      </app-event-card
-      >
+        >JEUDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="2" [img]="'../assets/img/photo2_abc.jpg'"
-      >VENDREDI
-      </app-event-card
-      >
+        >VENDREDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="3" [img]="'../assets/img/photo3_rallye.jpg'"
-      >SAMEDI
-      </app-event-card
-      >
+        >SAMEDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="4" [img]="'../assets/img/photo16_aprembds.jpg'"
-      >DIMANCHE
-      </app-event-card
-      >
+        >DIMANCHE
+      </app-event-card>
     </li>
   </ul>
 </div>
@@ -42,39 +37,33 @@
   <ul>
     <li>
       <app-event-card [id]="5" [img]="'../assets/img/photo5_karaokaisse.jpg'"
-      >LUNDI
-      </app-event-card
-      >
+        >LUNDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="6" [img]="'../assets/img/photo6_convi.jpg'"
-      >MARDI
-      </app-event-card
-      >
+        >MARDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="7" [img]="'../assets/img/photo20_cabaret.png'"
-      >MERCREDI
-      </app-event-card
-      >
+        >MERCREDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="8" [img]="'../assets/img/photo8_contest.jpg'"
-      >JEUDI
-      </app-event-card
-      >
+        >JEUDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="9" [img]="'../assets/img/photo25_casino.png'"
-      >VENDREDI
-      </app-event-card
-      >
+        >VENDREDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="10" [img]="'../assets/img/photo9_feu.jpg'"
-      >WEEK-END
-      </app-event-card
-      >
+        >WEEK-END
+      </app-event-card>
     </li>
   </ul>
 </div>
@@ -83,34 +72,100 @@
   <ul>
     <li>
       <app-event-card [id]="11" [img]="'../assets/img/photo27_potter.jpg'"
-      >LUNDI
-      </app-event-card
-      >
+        >LUNDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="12" [img]="'../assets/img/photo28_bdi.png'"
-      >MARDI
-      </app-event-card
-      >
+        >MARDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="13" [img]="'../assets/img/photo30_betonus.jpg'"
-      >MERCREDI
-      </app-event-card
-      >
+        >MERCREDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="14" [img]="'../assets/img/photo32_oenologie.png'"
-      >JEUDI
-      </app-event-card
-      >
+        >JEUDI
+      </app-event-card>
     </li>
     <li>
       <app-event-card [id]="15" [img]="'../assets/img/photo33_wei.jpg'"
-      >WEEK-END
-      </app-event-card
-      >
+        >WEEK-END
+      </app-event-card>
     </li>
   </ul>
 </div>
+<div class="referalContent">
+  <div class="head">
+    <div class="title">
+      <h2>Parrainage</h2>
+      <div class="underline"></div>
+    </div>
+    <p class="description">
+      A ton arrivée, tu rencontreras de nombreux premières années comme toi,
+      mais également des deuxièmes années. Juste après le WEI, chaque deuxième
+      année choisira un nouvel arrivant et deviendra son parrain !<br />Ton
+      parrain te prendra sous son aile et te fera découvrir les nombreuses
+      traditions de l’école qui feront de toi le parfait Atlante !
+    </p>
+  </div>
+  <div>
+    <div class="line">
+      <div class="step">
+        <h2>Etape 1</h2>
+        <div class="gDocStep">
+          <p>
+            Rempli ce petit questionnaire afin que ton parrain puisse te choisir
+            en fonction de vos centres d’intérêts communs !
+          </p>
+          <img
+            onclick="window.open('https://google.fr')"
+            src="../../../assets/img/gform.png"
+            alt="google doc"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="line">
+      <img src="../../../assets/img/défi.jpg" alt="défi" />
+      <div class="step">
+        <h2>Etape 2</h2>
+        <p>
+          Ca y est ton parrain t’as choisi(e) ! Tu vas maintenant recevoir par
+          SMS des défis à réaliser, avec pour chaque défi réussi, un indice sur
+          l’identité de ton parrain. Aucun défi n’est obligatoire, ne fais pas
+          ce que tu n’as pas envie de faire.
+        </p>
+      </div>
+    </div>
+    <div class="line imgLast">
+      <div class="step">
+        <h2>Etape 3</h2>
+        <p>
+          Après une longue semaine remplie de défis en tout genres, j’espère que
+          tu as récolté assez d’indices. C’est maintenant l’heure de la soirée
+          révélation des parrains. Trouve ton parrain grâce aux indices récoltés
+          !<br><br> Bon courage !
+        </p>
+      </div>
+      <img src="../../../assets/img/parrain.jpg" alt="Parrain" />
+    </div>
+    <div class="line">
+      <img src="../../../assets/img/famille.jpg" alt="Famille " />
+      <div class="step">
+        <h2>Etape 4</h2>
+        <p>
+          Tu as trouvé ton parrain ? Il va maintenant te présenter à ta nouvelle
+          famille : les deuxièmes années forment tous des familles avec leurs
+          potes. Cela te permettra de rencontrer d’autres deuxièmes années ainsi
+          que leurs filleuls. Profite de tes repas de famille tout au long de
+          l’année !
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <app-footer></app-footer>
