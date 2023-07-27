@@ -1,23 +1,17 @@
 {
-  "day": "JEUDI 24",
+  "day": "LUNDI 28",
   "events": [
     {
-      "img": "../assets/img/photo10_brunchbds.jpg",
-      "name": "BRUNCH BDS",
-      "hours": "11H - 14H",
-      "description": "Viens te régaler en mangeant équilibré lors du brunch organisé par le Bureau des Sports ! Gaufres, crêpes, jus de fruits, cafés, oeufs, cakes ... Le plein de vitamines pour seulement 2€."
+      "img": "../assets/img/photo18_bdx.jpg",
+      "name": "PRESENTATION DES BUREAUX",
+      "hours": "18H - 19H",
+      "description": "Pendant cet afterwork, tu pourras tout savoir sur les différents bureaux du campus, qui animent la vie étudiante. Chacun des bureaux se présentera et t'expliquera en détail son rôle, pour t'éclairer sur le déroulement de la vie au campus !"
     },
     {
-      "img": "../assets/img/photo11_visitebda.jpg",
-      "name": "VISITE DE NANTES BDA",
-      "hours": "13H - 18H",
-      "description": "Le Bureau des Arts organise une visite de Nantes à destination de tous ceux qui souhaitent découvrir la ville dans laquelle vous allez passer les 3 prochaines années."
-    },
-    {
-      "img": "../assets/img/photo1_barbec.jpg",
-      "name": "BARBECUE BDE",
-      "hours": "18H - 22H",
-      "description": "Ne manque surtout pas la première soirée à IMT Atlantique ! Le Bureau des Eleves te propose un barbecue gratuit qui te permettra de faire tes premières rencontres."
+      "img": "../assets/img/photo5_karaokaisse.jpg",
+      "name": "KARAOKAISSE",
+      "hours": "21H - 1H",
+      "description": "Le karaokaisse est une tradition de l'IMT. Tu souhaites chanter à tue-tête tout en te mettant une caisse ? Alors cette soirée est faite pour toi !"
     }
   ]
 }

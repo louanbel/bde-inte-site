@@ -20,6 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ImageHeaderComponent } from './components/image-header/image-header.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
+import { FooterComponent } from './components/footer/footer.component';
+
 
 registerLocaleData(localeFr);
 
@@ -36,6 +38,7 @@ registerLocaleData(localeFr);
     EventCardComponent,
     EventDialogComponent,
     ImageHeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
