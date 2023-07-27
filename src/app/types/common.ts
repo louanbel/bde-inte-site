@@ -3,6 +3,7 @@ export interface Event {
   name: string;
   hours: string;
   description: string;
+  lien: string|null;
 }
 
 export interface DayEvents {
