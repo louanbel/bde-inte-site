@@ -10,7 +10,9 @@
       <h4>{{ event.hours }} {{ event.name }}</h4>
       <div class="eventDetail">
         <img [src]="event.img" [alt]="event.name" />
-        <p>{{ event.description }}</p>
+       <div><p [innerText]="event.description"></p>
+        <a *ngIf ="event.lien " [href]="event.lien" target="_blank">{{event.lien}}</a></div>
+        
       </div>
     </li>
   </ul>
