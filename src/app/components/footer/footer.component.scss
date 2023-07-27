@@ -1,0 +1,42 @@
+.box {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .color-text{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #69a5ff;
+    text-shadow: 2px 2px 2px #9ec4ff;
+  }
+  
+  .numero{
+    text-align: center;
+  }
+
+  .footer1{
+    width: 13%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .footer2{
+    width: 12%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  .line {
+    border: none;
+  height: 4px;
+  /* Set the hr color */
+  background-image: linear-gradient(to right, #dcb253, #373ed4);
+    
+  }
+

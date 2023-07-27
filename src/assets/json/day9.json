@@ -1,23 +1,17 @@
 {
-  "day": "JEUDI 24",
+  "day": "VENDREDI 01",
   "events": [
     {
-      "img": "../assets/img/photo10_brunchbds.jpg",
-      "name": "BRUNCH BDS",
-      "hours": "11H - 14H",
-      "description": "Viens te régaler en mangeant équilibré lors du brunch organisé par le Bureau des Sports ! Gaufres, crêpes, jus de fruits, cafés, oeufs, cakes ... Le plein de vitamines pour seulement 2€."
+      "img": "../assets/img/photo24_clubbda.png",
+      "name": "PRESENTATION DES CLUBS BDA",
+      "hours": "17H-20H",
+      "description": "Découvre l'ensemble des clubs du BDA ! Chaque respo club sera présent afin de te présenter son club. N'hésite pas à t'y rendre afin de connaître l'ensemble des clubs proposés à l'école (mix, JDR, jeux vidéos, pâtisserie...) ! "
     },
-    {
-      "img": "../assets/img/photo11_visitebda.jpg",
-      "name": "VISITE DE NANTES BDA",
-      "hours": "13H - 18H",
-      "description": "Le Bureau des Arts organise une visite de Nantes à destination de tous ceux qui souhaitent découvrir la ville dans laquelle vous allez passer les 3 prochaines années."
-    },
-    {
-      "img": "../assets/img/photo1_barbec.jpg",
-      "name": "BARBECUE BDE",
-      "hours": "18H - 22H",
-      "description": "Ne manque surtout pas la première soirée à IMT Atlantique ! Le Bureau des Eleves te propose un barbecue gratuit qui te permettra de faire tes premières rencontres."
+     {
+      "img": "../assets/img/photo24_clubbda.png",
+      "name": "SOIREE BDS",
+      "hours": "20H-01H",
+      "description": " description à faire et photo à changer"
     }
   ]
 }
