@@ -1,6 +1,6 @@
 header.shrink {
     background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 
     .logo {
         transition: width 0.5s ease;
@@ -110,7 +110,7 @@ header.shrink {
                 margin: auto;
                 margin-top: 5px;
                 height: 2px;
-                width: 0px;
+                width: 0;
                 background: transparent;
                 transition: width .5s ease, background-color .5s ease;
             }
