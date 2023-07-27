@@ -18,6 +18,9 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { EventDialogComponent } from './components/event-dialog/event-dialog.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ImageHeaderComponent } from './components/image-header/image-header.component';
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import { FooterComponent } from './components/footer/footer.component';
 
 registerLocaleData(localeFr);
 
@@ -34,6 +37,7 @@ registerLocaleData(localeFr);
     EventCardComponent,
     EventDialogComponent,
     ImageHeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +45,8 @@ registerLocaleData(localeFr);
     NgbCarouselModule,
     MatDialogModule,
     HttpClientModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
   bootstrap: [AppComponent],
