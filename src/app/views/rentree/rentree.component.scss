@@ -1,189 +1,188 @@
 :host {
-    h3 {
+
+    p,
+    li {
         font-size: 20px;
+        line-height: 1.6;
     }
 
-    .underline {
-        border: solid 1px black;
-        margin: auto 30px 20px;
+    .subHeader {
+        margin: 50px 20vw;
+        text-align: center;
+
+        .description {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
     }
 
     .content {
-        margin: 50px 15vw;
-    }
+        margin: 0 17vw;
 
-    .campusPlan {
-        margin: auto 15vw;
-        padding-bottom: 100px;
-
-        img {
-            width: 100%;
+        .campusPlan {
+            img {
+                width: 100%;
+            }
         }
-    }
-
-    .roomContent {
-        padding: 0 15vw 100px;
-        background: rgb(92, 92, 92);
-        background: linear-gradient(180deg, rgba(173, 173, 173, 100) 0%, rgba(255, 255, 255, 1) 100%);
 
         .title {
-            padding: 30px 0;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-
-            h2 {
-                text-align: center;
-                margin-top: 30px;
-                font-size: 40px;
-            }
+            width: fit-content;
+            margin-bottom: 30px;
 
             .underline {
-                width: 50%;
+                width: 90%;
+                border: 1px solid black;
             }
 
+            h2 {
+                font-size: 40px;
+                margin: 50px auto 15px;
+                line-height: normal;
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 35px;
+                font-weight: 500;
+                text-align: center;
+                line-height: normal;
+                margin-bottom: 0;
+            }
         }
 
-        .list {
+        .keyDates {
             display: flex;
             flex-direction: column;
             gap: 50px;
 
-            .room {
+            .date {
                 display: flex;
-                justify-content: space-between;
+                justify-content: flex-start;
                 align-items: center;
+                gap: 30px;
 
                 img {
+                    width: 400px;
+                    height: auto;
                     aspect-ratio: 3/2;
                     object-fit: cover;
-                    width: 300px;
-                    height: 100%;
+                    border-radius: 30px;
                 }
 
-                .text {
-                    margin: 0 30px;
-                    line-height: 2.5;
-
-                }
             }
         }
 
-
-    }
-
-    .line {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        &>div {
+        .studio {
             width: 50%;
         }
 
-        .text {
-            text-align: center;
-            padding: 20px;
-            line-height: 2;
-        }
+        .groups {
+            .description {
+                display: flex;
+                align-items: center;
+                gap: 30px;
 
-        .verticalImages,
-        .images,
-        .singleImage {
-            flex-grow: 0;
-            display: flex;
+                p {
+                    font-size: 25px;
+                }
+            }
 
-        }
+            .warning {
+                padding: 30px 150px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 500;
+            }
 
-        .singleImage {
-            img {
-                width: 100%;
-                object-fit: cover;
-                aspect-ratio: 1/1;
+            .groupList {
+                .group {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+
+                    .imageSection {
+                        width: 300px;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    img {
+                        width: 250px;
+
+                        &#bda,
+                        &#bdi {
+                            width: 150px;
+                        }
+
+                        &#bdi {
+                            border-radius: 100px;
+                        }
+
+                        &#bds {
+                            width: 170px;
+                        }
+                    }
+
+                    .socials {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        .social {
+                            display: flex;
+                            align-items: center;
+                            line-height: 1.2;
+
+                            img {
+                                width: 50px;
+                                margin-right: 20px;
+                            }
+
+                            a {
+                                font-size: 25px;
+                                text-decoration: none;
+                                color: inherit;
+                                word-break: break-all;
+                            }
+                        }
+
+                    }
+                }
             }
         }
 
-        .verticalImages {
-            img {
-                width: 50%;
-            }
-        }
-
-        .images {
-            flex-direction: column;
-
-            img {
-                width: auto;
-                height: auto;
-            }
-        }
     }
 
 }
 
 @media (max-width: 1200px) {
-    :host .content {
-        margin: auto 5vw;
-    }
-
-    :host .campusPlan {
-        margin: auto 0;
-        padding-bottom: 50px;
-    }
-
-}
-
-@media (max-width: 900px) {
-    :host .content {
-        margin: auto 0;
-    }
-
-    :host .roomContent {
-        .list {
-            align-items: center;
-            gap: 0;
+    :host .content .groups {
+        .description {
+            flex-direction: column;
         }
 
-        .room {
-            flex-direction: column;
+        .warning {
+            padding: 30px 50px;
+        }
 
-            img {
-                width: 100% !important;
-            }
-
-            .text {
-                margin: 30px 0 !important;
-            }
+        .groupList .group img {
+            width: 200px;
+        }
+        .groupList .group .imageSection {
+            width: 350px;
         }
     }
 }
 
-
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     :host .content {
-        margin: auto 0;
-
-        .line {
-            flex-direction: column;
-            margin-top: 30px;
-
-            &>* {
-                width: 100%;
-            }
-
-            &.imageFirst {
-
-                .images,
-                .singleImage,
-                .verticalImages {
-                    order: 2;
-                }
-
-                .text {
-                    order: 1;
-                }
-            }
-        }
+        margin: 0 5vw;
     }
 }
