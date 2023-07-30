@@ -11,7 +11,9 @@ header.shrink {
         background-color: black;
     }
 }
-
+.social-mobile {
+    display: none;
+}
 .header-items {
     display: flex;
     flex-direction: row;
@@ -155,7 +157,11 @@ header.shrink {
         width: 50%;
     }
 
-
+    .social-mobile {
+        display: flex !important;
+        gap: 20px;
+        justify-content: center;
+    }
     .social {
         display: none !important;
     }

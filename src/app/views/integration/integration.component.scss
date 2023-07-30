@@ -6,6 +6,9 @@
         background: rgb(92, 92, 92);
         background: linear-gradient(180deg, rgba(173, 173, 173, 100) 0%, rgba(255, 255, 255, 1) 100%);
 
+        .gFormButton:hover {
+            cursor: pointer;
+        }
         .description {
             margin: 0 0;
         }

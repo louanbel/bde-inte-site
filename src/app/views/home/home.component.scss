@@ -47,7 +47,9 @@
         text-align: left;
         line-height: 55pt;
         margin: 0;
-
+        &#wei {
+            font-size: 60px;
+        }
         span {
             background-color: #3D53CD;
             -webkit-text-stroke: 1px;
@@ -78,6 +80,9 @@
 
         h2 {
             font-size: 40px;
+            &#wei {
+                font-size: 50px;
+            }
         }
     }
 
@@ -94,5 +99,8 @@
     .carousel-caption h2 {
         font-size: 30px;
         line-height: 50px;
+        &#wei {
+            font-size: 40px;
+        }
     }
 }
