@@ -1,0 +1,189 @@
+:host {
+    h3 {
+        font-size: 20px;
+    }
+
+    .underline {
+        border: solid 1px black;
+        margin: auto 30px 20px;
+    }
+
+    .content {
+        margin: 50px 15vw;
+    }
+
+    .campusPlan {
+        margin: auto 15vw;
+        padding-bottom: 100px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .roomContent {
+        padding: 0 15vw 100px;
+        background: rgb(92, 92, 92);
+        background: linear-gradient(180deg, rgba(173, 173, 173, 100) 0%, rgba(255, 255, 255, 1) 100%);
+
+        .title {
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 40px;
+            }
+
+            .underline {
+                width: 50%;
+            }
+
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .room {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    aspect-ratio: 3/2;
+                    object-fit: cover;
+                    width: 300px;
+                    height: 100%;
+                }
+
+                .text {
+                    margin: 0 30px;
+                    line-height: 2.5;
+
+                }
+            }
+        }
+
+
+    }
+
+    .line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>div {
+            width: 50%;
+        }
+
+        .text {
+            text-align: center;
+            padding: 20px;
+            line-height: 2;
+        }
+
+        .verticalImages,
+        .images,
+        .singleImage {
+            flex-grow: 0;
+            display: flex;
+
+        }
+
+        .singleImage {
+            img {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+            }
+        }
+
+        .verticalImages {
+            img {
+                width: 50%;
+            }
+        }
+
+        .images {
+            flex-direction: column;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    :host .content {
+        margin: auto 5vw;
+    }
+
+    :host .campusPlan {
+        margin: auto 0;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    :host .content {
+        margin: auto 0;
+    }
+
+    :host .roomContent {
+        .list {
+            align-items: center;
+            gap: 0;
+        }
+
+        .room {
+            flex-direction: column;
+
+            img {
+                width: 100% !important;
+            }
+
+            .text {
+                margin: 30px 0 !important;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 700px) {
+    :host .content {
+        margin: auto 0;
+
+        .line {
+            flex-direction: column;
+            margin-top: 30px;
+
+            &>* {
+                width: 100%;
+            }
+
+            &.imageFirst {
+
+                .images,
+                .singleImage,
+                .verticalImages {
+                    order: 2;
+                }
+
+                .text {
+                    order: 1;
+                }
+            }
+        }
+    }
+}

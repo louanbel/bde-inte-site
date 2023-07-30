@@ -21,6 +21,7 @@ import { ImageHeaderComponent } from './components/image-header/image-header.com
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import { FooterComponent } from './components/footer/footer.component';
+import { RentreeComponent } from './views/rentree/rentree.component';
 
 registerLocaleData(localeFr);
 
@@ -38,6 +39,7 @@ registerLocaleData(localeFr);
     EventDialogComponent,
     ImageHeaderComponent,
     FooterComponent,
+    RentreeComponent,
   ],
   imports: [
     BrowserModule,
