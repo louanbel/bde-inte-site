@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="ngb.alert.close" datatype="html">
         <source>Close</source>
@@ -243,96 +243,743 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="60750376914950798" datatype="html">
+        <source>REFERENTS VSS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7991238405945889751" datatype="html">
+        <source>PC SECURITE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6259581666578119317" datatype="html">
+        <source>POLE INTE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7150593562313015326" datatype="html">
+        <source><x id="START_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;ng-content&gt;"/><x id="CLOSE_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;/ng-content&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/image-header/image-header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4676211646227573090" datatype="html">
+        <source>ASSOS ET CLUB</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1318655857039559814" datatype="html">
+        <source>LES ASSOCIATIONS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8339956080874793203" datatype="html">
+        <source>LES CLUBS SPORTIFS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2762994987317126312" datatype="html">
+        <source> Découvre les clubs sportifs de l&apos;école, affiliés au BDS ! N&apos;hésites pas à demander des renseignements aux respos sports mentionnés. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7435388297456193452" datatype="html">
+        <source>ATHLETISME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2463069000175479376" datatype="html">
+        <source>DANSE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3347194632157191705" datatype="html">
+        <source>TIR A L&apos;ARC</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7535366370797716417" datatype="html">
+        <source>PECHE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4940042224226830336" datatype="html">
+        <source>VOILE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="206391614103603797" datatype="html">
+        <source>BOXE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5766344390757519264" datatype="html">
+        <source>ESCALADE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4621258606414910779" datatype="html">
+        <source>TENNIS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5019020964688352414" datatype="html">
+        <source>NATATION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">250</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5178967873466873876" datatype="html">
+        <source>GYMNASTIQUE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="155946100001457176" datatype="html">
+        <source>AVIRON</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3339560371570287733" datatype="html">
+        <source>EQUITATION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">322</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5262790964354653207" datatype="html">
+        <source>TENNIS DE TABLE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">331</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4899725912643442085" datatype="html">
+        <source>LES CLUBS NON SPORTIFS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">339</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6076033329052569809" datatype="html">
+        <source> Tu trouveras ci-dessous la liste des clubs non sportifs, assimilés au BDA ! Les noms des respos clubs sont rappelés si tu veux leur demander des informations ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">342,346</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5601323489835051375" datatype="html">
+        <source>OENOLOGIE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">360</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4494373379775515168" datatype="html">
+        <source>ROBOTIQUE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">387</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4281110930246117929" datatype="html">
+        <source>DANSE LATINE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">396</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6921503943140460411" datatype="html">
+        <source>MUSIQUE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">405</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3904672123841357479" datatype="html">
+        <source>PHOTO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">414</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2503058010050231868" datatype="html">
+        <source>JEUX VIDEOS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">432</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5289115834382339128" datatype="html">
+        <source>PATISSERIE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6554595074064693457" datatype="html">
+        <source>ECHEC</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">450</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="946434619924794886" datatype="html">
+        <source>JEUX DE RÔlES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">468</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="407085422131673632" datatype="html">
+        <source>FANFARE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">477</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1134553090175103262" datatype="html">
+        <source>DESSIN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">495</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5521890409040528727" datatype="html">
+        <source>JEUX DE SOCIETE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">504</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4679802168086100619" datatype="html">
+        <source>La Maison des élèves (meudeuh)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6999679837797380951" datatype="html">
+        <source> Le lieu incontournable de notre campus est la MDE (meudeuh), ouverte de 8h à 1h, 3h les jours d’opé. C’est là que se déroulent toutes les soirées étudiantes (tonus). Il y a aussi le Traquenard (Traq), bar et cuisine de l’école, ou encore des baby-foot et une table de billard à l’étage ! Les bureaux de l’administration se trouvent à l’étage de la MDE. Il y a aussi les salles réservées aux différents BDX. Tu peux aussi y réserver des salles, qui sont disponibles jusqu’à 3h sous réserve d’avoir un garant sobre. Demande à Rudy Pierronnet sur Messenger si tu veux en réserver une ! Des casiers sont aussi disponibles sur demande pour y laisser tes affaires en soirée. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">9,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8101059452717062334" datatype="html">
+        <source>Les hébergements</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4569384551163829615" datatype="html">
+        <source> 50 T1 bis d&apos;environ 30 m2 sont meublés d&apos;un lit, d&apos;un bureau, d&apos;un coin cuisine(réfrigérateur, plaque de cuisson) 557 studios : tous les studettes sont identiques en équipement et taille (18m²) et disposent de l&apos;essentiel pour permettre à chaque élève de vivre confortablement : Salle de bain avec douche, WC et lavabo Coin cuisine avec plaque électrique, frigo, évier, prises électriques Chambre avec lit simple, un (très) grand bureau, chaise de bureau, table de nuit, étagères, armoire, table, tabouret, connexion réseau et prise TV </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">34,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5134549426446766245" datatype="html">
+        <source>Le gymnase</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8587974391725190707" datatype="html">
+        <source> Le gymnase est à disposition de tout les étudiants de l’école de 7h à 23h. Tu peux le réserver en allant sur la page Facebook du BDS (la démarche y est expliquée). La salle de sport à l’étage est ouverte à tous, sans réservation ! Un coach sportif y est parfois présent pour te donner des conseils. Pense bien à prendre ta carte étudiant pour y accéder ! Si la porte principale est fermée, tu peux toujours passer par l’entrée sur le côté du gymnase. Un street-workout tout neuf est aussi disponible en face du gymnase ! Tu peux aussi profiter du city-stade ou des terrains de tennis en ayant sur toi la carte étudiante de l’école. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">50,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1248478961308741869" datatype="html">
+        <source>La Restauration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1981772760385538807" datatype="html">
+        <source> Notre campus comporte un Restaurant Universitaire (RU). Tu pourras y manger le midi, et même le soir si tu as la flemme de cuisiner. Les horaires d’ouverture sont de 11h30 à 13h45 le midi et de 18h30 à 19h45 le soir, tous les jours de la semaine, mais il est fermé le vendredi soir et le week-end. Chaque repas coûte 3,65€ pour 3 unités. Tu auras besoin de ta carte étudiante pour payer les repas. Tu peux y mettre la somme que tu veux dessus à l’aide de ta carte bancaire via le site PopAndPay (code site : IMT44). Attention ! Il y a beaucoup de monde de 12h15 à 12h45. Un CROUS est aussi disponible à 5 minutes à Polytech, et propose des repas à 1€ pour les boursiers. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">82,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6368988880045210675" datatype="html">
+        <source>Salles MDE mises à disposition</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3856574289728179108" datatype="html">
+        <source>SALLE MUSIQUE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2028919870566795540" datatype="html">
+        <source> Cette salle est à disposition de tous avec à l’intérieur du matériel de musique et des instruments : piano, guitare ... Pour y avoir accès contactez Illian BEN AMAR sur Messenger. Vous pouvez réserver la salle sur la <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/919121721474998&quot;
+            &gt;"/>page Facebook du club de musique.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+          &gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">110,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7128824465147685152" datatype="html">
+        <source>SALLE MIX</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5859395732635859463" datatype="html">
+        <source> La salle mix peut être réservée sur la <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/777875979434111&quot;
+            &gt;"/>page facebook du club mix<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+          &gt;"/>. La démarche pour le faire y est expliquée. Vois avec Victor Gauthier ou les membres du BR BDE pour te l’ouvrir ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">128,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8579012128203941296" datatype="html">
+        <source>SALLE DE REU</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="223679222917735302" datatype="html">
+        <source> Une salle de réunion est disponible. Attention, les associations et clubs sont prioritaires pour y accéder ! La salle est pourvue d’une grande table et de nombreux sièges. Pour la réserver, demande à Rudy Pierronnet sur Messenger. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">144,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="567713743836575572" datatype="html">
+        <source>SALLE AFTER</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7438976650566740294" datatype="html">
+        <source> La salle d’after est parfaite pour...faire des afters ! Elle est disponible jusqu’à 3h en soirée sous réserve d’avoir un garant sobre. Demande à Rudy Pierronnet si tu veux la réserver, mais c’est aux agents de sécurité que tu devras demander de rester plus tard. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">159,164</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2761418263256284368" datatype="html">
         <source>DES EVENEMENTS </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2494922439865215596" datatype="html">
-        <source>INOUBLIABLES !!!</source>
+      <trans-unit id="391036154154430568" datatype="html">
+        <source>INOUBLIA­BLES !!!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2868428261922668772" datatype="html">
         <source>Du 24 août au </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="627569994111675644" datatype="html">
         <source>10 septembre</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7318687398473090223" datatype="html">
         <source> Plus d&apos;infos </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">22,24</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">28,30</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">42,44</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">54,56</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">62,64</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">80,82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3262235722383529385" datatype="html">
         <source>LE WEI</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5198063369584975881" datatype="html">
         <source>8 - 9 </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="519786873076765749" datatype="html">
         <source>septembre</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4451635295590193723" datatype="html">
         <source>PREPARE TA </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9054949493529018988" datatype="html">
-        <source>RENTREE !</source>
+      <trans-unit id="2605497522994393944" datatype="html">
+        <source>RENTREE SCOLAIRE !</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2325520967663643389" datatype="html">
         <source>Vendredi 25 </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6277255051260713242" datatype="html">
         <source>août</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9189830142177590360" datatype="html">
+        <source> Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi t’introduire à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le WEI, deux week-ends phares de l’intégration à l’IMT Atlantique.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">4,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1661298874688424556" datatype="html">
+        <source>SEMAINE 1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5123864005520666824" datatype="html">
+        <source>JEUDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7253601662653500897" datatype="html">
+        <source>VENDREDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5054957473630015898" datatype="html">
+        <source>SAMEDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1293477058786024914" datatype="html">
+        <source>DIMANCHE </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3374680739988373524" datatype="html">
+        <source>SEMAINE 2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7957775969099478975" datatype="html">
+        <source>LUNDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="635943589388801730" datatype="html">
+        <source>MARDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5734813929497935150" datatype="html">
+        <source>MERCREDI </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5456503408985026270" datatype="html">
+        <source>WEEK-END </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8637671970468487337" datatype="html">
+        <source>Parrainage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2834914949689344893" datatype="html">
+        <source> A ton arrivée, tu rencontreras de nombreux premières années comme toi, mais également des deuxièmes années. Juste après le WEI, chaque deuxième année choisira un nouvel arrivant et deviendra son parrain !<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Ton parrain te prendra sous son aile et te fera découvrir les nombreuses traditions de l’école qui feront de toi le parfait Atlante ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">109,115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="746645700732516370" datatype="html">
+        <source>Etape 1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9127667309064187765" datatype="html">
+        <source> Rempli ce petit questionnaire afin que ton parrain puisse te choisir en fonction de vos centres d’intérêts communs ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8777455339156847891" datatype="html">
+        <source>Etape 2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7739100326465769470" datatype="html">
+        <source> Ca y est ton parrain t’as choisi(e) ! Tu vas maintenant recevoir par SMS des défis à réaliser, avec pour chaque défi réussi, un indice sur l’identité de ton parrain. Aucun défi n’est obligatoire, ne fais pas ce que tu n’as pas envie de faire. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">139,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6521137641680389094" datatype="html">
+        <source>Etape 3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4608469068564898705" datatype="html">
+        <source> Après une longue semaine remplie de défis en tout genres, j’espère que tu as récolté assez d’indices. C’est maintenant l’heure de la soirée révélation des parrains. Trouve ton parrain grâce aux indices récoltés !<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Bon courage ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">150,156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6153040046159335475" datatype="html">
+        <source>Etape 4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5233347878302389259" datatype="html">
+        <source> Tu as trouvé ton parrain ? Il va maintenant te présenter à ta nouvelle famille : les deuxièmes années forment tous des familles avec leurs potes. Cela te permettra de rencontrer d’autres deuxièmes années ainsi que leurs filleuls. Profite de tes repas de famille tout au long de l’année ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">164,170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3340595223745124718" datatype="html">
+        <source> LE WEI
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="653226980234840498" datatype="html">
+        <source>LE WEI C’EST QUOI ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3656308217087376718" datatype="html">
+        <source> Pour conclure tes semaines d’intégration à l’école, le BDE organise le WEI : le point culminant de ton début d’année ! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Un week-end inoubliable dans un lieu inconnu avec plein d&apos;activités du matin au soir et des soirées mémorables ! C&apos;est aussi l&apos;occasion de faire connaissance avec les étudiants de l&apos;autre campus, car à l&apos;issue de ce week-end de folie, tu connaîtras toute la promo et seras un Atlante accompli. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">8,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4865241784502836852" datatype="html">
+        <source> PRIX : 150€ - tout compris : logement, repas, activité, trajet <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="126101652492937495" datatype="html">
+        <source> Temps de trajet : Environ 2h en bus depuis Nantes (possibilité de venir en voiture : contactez Léna Souami pour faire la demande) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3310640819366821636" datatype="html">
+        <source>Je m&apos;inscris</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4105064100770423771" datatype="html">
+        <source>A NE PAS OUBLIER</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1621391427136919195" datatype="html">
+        <source> Voici une petite liste des choses que tu dois emporter pour passer un WEI parfait </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">74,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="585524354869639498" datatype="html">
+        <source>1. Des lunettes de star</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3249404167410214287" datatype="html">
+        <source>3. Ton sourire et beaucoup d’énergie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7897481164085868" datatype="html">
+        <source>2. De quoi prendre une bonne douche</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6168112290783148177" datatype="html">
+        <source>La vraie liste</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6533949039294744306" datatype="html">
+        <source>DE NOMBREUSES ACTIVITES ....</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3455352451459101363" datatype="html">
+        <source> Pas d’inquiétude, avec toutes lees activités que nous t’avons préparé, tu ne risque pas de t’ennuyer ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
+          <context context-type="linenumber">118,121</context>
         </context-group>
       </trans-unit>
     </body>

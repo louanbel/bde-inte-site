@@ -38,7 +38,7 @@ To generate the messages file containing all the text of the website :
 2. Then use :
 
 ```zsh
-ng extrat-i18n
+ng extract-i18n
 ```
 
 3. Then copy the file `messages.xlf` and rename it `messages.en.xlf`.

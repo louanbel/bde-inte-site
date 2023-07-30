@@ -8,91 +8,94 @@
   WEI, deux week-ends phares de l’intégration à l’IMT Atlantique.
 </p>
 <div class="first-week">
-  <app-date-title>SEMAINE 1</app-date-title>
+  <app-date-title i18n>SEMAINE 1</app-date-title>
   <ul>
     <li>
-      <app-event-card [id]="1" [img]="'../assets/img/photo1_barbec.jpg'"
+      <app-event-card [id]="1" [img]="'../assets/img/photo1_barbec.jpg'" i18n
         >JEUDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="2" [img]="'../assets/img/photo2_abc.jpg'"
+      <app-event-card [id]="2" [img]="'../assets/img/photo2_abc.jpg'" i18n
         >VENDREDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="3" [img]="'../assets/img/photo3_rallye.jpg'"
+      <app-event-card [id]="3" [img]="'../assets/img/photo3_rallye.jpg'" i18n
         >SAMEDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="4" [img]="'../assets/img/photo16_aprembds.jpg'"
+      <app-event-card [id]="4" [img]="'../assets/img/photo16_aprembds.jpg'" i18n
         >DIMANCHE
       </app-event-card>
     </li>
   </ul>
 </div>
 <div class="second-week">
-  <app-date-title>SEMAINE 2</app-date-title>
+  <app-date-title i18n>SEMAINE 2</app-date-title>
   <ul>
     <li>
-      <app-event-card [id]="5" [img]="'../assets/img/photo5_karaokaisse.jpg'"
+      <app-event-card
+        [id]="5"
+        [img]="'../assets/img/photo5_karaokaisse.jpg'"
+        i18n
         >LUNDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="6" [img]="'../assets/img/photo6_convi.jpg'"
+      <app-event-card [id]="6" [img]="'../assets/img/photo6_convi.jpg'" i18n
         >MARDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="7" [img]="'../assets/img/photo20_cabaret.png'"
+      <app-event-card [id]="7" [img]="'../assets/img/photo20_cabaret.png'" i18n
         >MERCREDI
       </app-event-card>
     </li>
     <li>
-      <app-event-card [id]="8" [img]="'../assets/img/photo8_contest.jpg'"
+      <app-event-card [id]="8" [img]="'../assets/img/photo8_contest.jpg'" i18n
         >JEUDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="9" [img]="'../assets/img/photo25_casino.png'"
-        >VENDREDI
+      i18n>VENDREDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="10" [img]="'../assets/img/photo9_feu.jpg'"
-        >WEEK-END
+      i18n>WEEK-END
       </app-event-card>
     </li>
   </ul>
 </div>
 <div class="third-week">
-  <app-date-title>SEMAINE 2</app-date-title>
+  <app-date-title i18n>SEMAINE 2</app-date-title>
   <ul>
     <li>
       <app-event-card [id]="11" [img]="'../assets/img/photo27_potter.jpg'"
-        >LUNDI
+      i18n>LUNDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="12" [img]="'../assets/img/photo28_bdi.png'"
-        >MARDI
+      i18n>MARDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="13" [img]="'../assets/img/photo30_betonus.jpg'"
-        >MERCREDI
+      i18n>MERCREDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="14" [img]="'../assets/img/photo32_oenologie.png'"
-        >JEUDI
+      i18n>JEUDI
       </app-event-card>
     </li>
     <li>
       <app-event-card [id]="15" [img]="'../assets/img/photo33_wei.jpg'"
-        >WEEK-END
+      i18n>WEEK-END
       </app-event-card>
     </li>
   </ul>
@@ -100,10 +103,10 @@
 <div class="referalContent">
   <div class="head">
     <div class="title">
-      <h2>Parrainage</h2>
+      <h2 i18n>Parrainage</h2>
       <div class="underline"></div>
     </div>
-    <p class="description">
+    <p class="description" i18n>
       A ton arrivée, tu rencontreras de nombreux premières années comme toi,
       mais également des deuxièmes années. Juste après le WEI, chaque deuxième
       année choisira un nouvel arrivant et deviendra son parrain !<br />Ton
@@ -114,9 +117,9 @@
   <div>
     <div class="line">
       <div class="step">
-        <h2>Etape 1</h2>
+        <h2 i18n>Etape 1</h2>
         <div class="gDocStep">
-          <p>
+          <p i18n>
             Rempli ce petit questionnaire afin que ton parrain puisse te choisir
             en fonction de vos centres d’intérêts communs !
           </p>
@@ -132,8 +135,8 @@
     <div class="line">
       <img src="../../../assets/img/défi.jpg" alt="défi" />
       <div class="step">
-        <h2>Etape 2</h2>
-        <p>
+        <h2 i18n>Etape 2</h2>
+        <p i18n>
           Ca y est ton parrain t’as choisi(e) ! Tu vas maintenant recevoir par
           SMS des défis à réaliser, avec pour chaque défi réussi, un indice sur
           l’identité de ton parrain. Aucun défi n’est obligatoire, ne fais pas
@@ -143,12 +146,13 @@
     </div>
     <div class="line imgLast">
       <div class="step">
-        <h2>Etape 3</h2>
-        <p>
+        <h2 i18n>Etape 3</h2>
+        <p i18n>
           Après une longue semaine remplie de défis en tout genres, j’espère que
           tu as récolté assez d’indices. C’est maintenant l’heure de la soirée
           révélation des parrains. Trouve ton parrain grâce aux indices récoltés
-          !<br><br> Bon courage !
+          !<br /><br />
+          Bon courage !
         </p>
       </div>
       <img src="../../../assets/img/parrain.jpg" alt="Parrain" />
@@ -156,8 +160,8 @@
     <div class="line">
       <img src="../../../assets/img/famille.jpg" alt="Famille " />
       <div class="step">
-        <h2>Etape 4</h2>
-        <p>
+        <h2 i18n>Etape 4</h2>
+        <p i18n>
           Tu as trouvé ton parrain ? Il va maintenant te présenter à ta nouvelle
           famille : les deuxièmes années forment tous des familles avec leurs
           potes. Cela te permettra de rencontrer d’autres deuxièmes années ainsi
