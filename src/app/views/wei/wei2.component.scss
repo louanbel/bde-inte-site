@@ -15,6 +15,12 @@
     }
 
     @media (max-width: 850px) {
+
+        .presentation-wei .text {
+            padding: 20px 30px;
+        }
+
+
         .info {
 
             .info-left {
@@ -57,6 +63,10 @@
     }
 
     @media (max-width: 500px) {
+        .galerie {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         .info {
             flex-direction: column;
 
