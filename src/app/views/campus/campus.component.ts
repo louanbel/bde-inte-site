@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-campus',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./campus.component.scss']
 })
 export class CampusComponent {
+  constructor(private title: Title) {}
+  ngOnInit() {
+    this.title.setTitle('Campus | IMTMERSION');
+  }
 
 }
