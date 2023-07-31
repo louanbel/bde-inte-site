@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-wei',
   templateUrl: './wei.component.html',
-  styleUrls: ['./wei.component.scss']
+  styleUrls: ['./wei.component.scss', './wei2.component.scss'],
 })
-export class WeiComponent {
-
-}
+export class WeiComponent {}

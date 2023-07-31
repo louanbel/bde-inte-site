@@ -1,0 +1,115 @@
+:host {
+    @media (max-width: 1000px) {
+        .info-right {
+            .right-img {
+                max-width: 300px;
+                height: auto;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 850px) {
+        .info {
+
+            .info-left {
+                .info-left-content {
+
+                    .info-title {
+                        width: 40vw;
+                    }
+
+                    .info-inscription {
+                        .arrow>img {
+                            width: 6vw;
+                        }
+                    }
+                }
+            }
+
+            .info-right {
+                .right-img {
+                    max-width: 250px;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .ne-pas-oublier {
+            .A-cards {
+                .A-card-img {
+                    max-width: 40vw;
+                    margin: 0;
+                }
+            }
+        }
+
+
+    }
+
+    @media (max-width: 500px) {
+        .info {
+            flex-direction: column;
+
+            .info-left {
+                width: 100%;
+
+                .info-left-content {
+                    width: 100%;
+
+                    .info-title {
+                        width: 60vw;
+                    }
+
+                    .info-inscription {
+                        .arrow>img {
+                            width: 6vw;
+                        }
+                    }
+                }
+            }
+
+            .info-right {
+                width: 100%;
+
+
+                .right-img {
+                    width: 100%;
+                    max-width: 200px;
+                    height: auto;
+                    margin: 10vw;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .ne-pas-oublier {
+            .A-text {
+                padding: 0;
+            }
+
+            .A-cards {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .A-card-img {
+                    max-width: 60vw;
+                }
+            }
+        }
+    }
+}
