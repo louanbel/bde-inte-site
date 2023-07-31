@@ -9,6 +9,7 @@
         .gFormButton:hover {
             cursor: pointer;
         }
+
         .description {
             margin: 0 0;
         }
@@ -197,6 +198,9 @@
     }
 
     @media (max-width: 650px) {
+        .referalContent .line .step .gDocStep {
+            flex-direction: column;
+        }
 
         .first-week,
         .second-week,

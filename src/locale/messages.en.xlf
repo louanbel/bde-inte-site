@@ -362,7 +362,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="1621391427136919195" datatype="html">
-        <source> Voici une petite liste des choses que tu dois emporter pour passer un WEI parfait </source>
+        <source> Voici une petite liste des choses que tu dois emporter pour passer un WEI parfait :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">74,77</context>

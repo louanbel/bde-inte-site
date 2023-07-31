@@ -41,7 +41,7 @@
                 }
 
                 img {
-                    aspect-ratio: 4/3;
+                    // aspect-ratio: 4/3;
                     width: 250px;
                     height: auto;
                     object-fit: cover;
@@ -53,7 +53,7 @@
 }
 @media (max-width: 1200px) {
     ::ng-deep .event-dialog {
-        max-width: 70vw !important;
+        max-width: 85vw !important;
     }    
 }
 @media (max-width: 800px) {
