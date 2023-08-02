@@ -2,6 +2,12 @@
   "day": "JEUDI 07",
   "events": [
     {
+      "img": "../assets/img/unidays.png",
+      "name": "Journée UNIDAYS",
+      "hours": "10H - 18H",
+      "description": "Unidays sera présent à la MDE pour te présenter son site regroupant toutes les réductions étudiantes tout en te faisant gagner des lots et en t'offrant une collation !"
+    },
+    {
       "img": "../assets/img/photo31_olimtpe.png",
       "name": "AFTERWORK OL.IMT.PE",
       "hours": "16H - 18H",

@@ -1,0 +1,222 @@
+:host {
+    .content {
+        margin: 50px 20vw 100px;
+
+        .heading {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .title {
+                width: 400px;
+            }
+
+            img {
+                width: 30%;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 70px;
+                padding-bottom: 10px;
+            }
+
+            .underline {
+                width: 80%;
+                margin: auto auto 10px auto;
+                border: 2px solid black;
+            }
+
+            p {
+                font-size: 20px;
+                text-align: center;
+                line-height: 1.6;
+            }
+        }
+
+        .team {
+            margin-top: 50px;
+
+            .title {
+                width: fit-content;
+
+                h3,
+                h4 {
+                    text-align: center;
+                    font-weight: 500;
+                    line-height: 1.6;
+                    margin-bottom: 0;
+
+                }
+
+                h3 {
+                    font-size: 40px;
+                }
+
+                h4 {
+                    font-size: 35px;
+                }
+
+                .underline {
+                    width: 90%;
+                    border: 1px solid black;
+                    margin: auto;
+                }
+            }
+
+            .referals {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .mainTitle {
+                margin: auto;
+            }
+
+            .subTitle {
+                margin: 30px 0;
+            }
+
+            .description {
+                font-size: 20px;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .responsibles {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+                column-gap: 50px;
+
+                .responsible {
+                    .underline {
+                        width: 105%;
+                        margin: 0 0;
+                    }
+
+                    &:first-of-type .description {
+
+                        img,
+                        p {
+                            width: 50%;
+                        }
+                    }
+
+                    .description {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 30px;
+
+                        p {
+                            font-size: 20px;
+                            line-height: 1.6;
+                            text-align: left;
+                            width: 60%;
+                        }
+
+                        img {
+                            width: 50%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+
+                .responsible:last-of-type {
+                    grid-column: span 2;
+                }
+            }
+
+            .cause {
+                text-align: center;
+                font-size: 30px;
+                line-height: 1.6;
+                width: 60%;
+                margin: 30px auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    :host .content {
+        margin: 50px 10vw 100px;
+    }
+}
+
+    @media (max-width: 1000px) {
+    :host .content .team .responsibles {
+        display: block;
+
+        .responsible {
+            &:first-child {
+                .description img {
+                    width: 100% !important;
+                }
+            }
+
+            &:not(:last-of-type) {
+                .description {
+                    align-items: center;
+                    flex-direction: row;
+                }
+            }
+
+            .description {
+                flex-direction: column-reverse;
+
+                p,
+                img {
+                    width: 100% !important;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    :host .content {
+        margin: 50px 5vw 100px;
+
+        .heading {
+            flex-direction: column;
+            gap: 50px;
+
+            h2 {
+                font-size: 50px;
+                padding-bottom: 5px;
+            }
+
+            img {
+                width: 60%;
+            }
+
+            .title {
+                width: auto;
+            }
+        }
+
+        .team .cause {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    :host .content .team .responsibles .responsible {
+        .title .underline {
+            width: 100%;
+        }
+
+        .description {
+            flex-direction: column-reverse !important;
+
+            .respo {
+                width: 100% !important;
+            }
+        }
+    }
+}

@@ -2,6 +2,12 @@
   "day": "MARDI 05",
   "events": [
     {
+      "img": "../assets/img/la-poste.jpeg",
+      "name": "Journée la Poste",
+      "hours": "8H - 18H",
+      "description": "La poste sera présente à la MDE toute la journée pour t'offrir une collation et des goodies ainsi que pour te présenter ses meilleures offres d'emplois !"
+    },
+    {
       "img": "../assets/img/photo28_bdi.png",
       "name": "AFTERWORK BDI",
       "hours": "11H - 14H",
@@ -9,5 +15,3 @@
     }
   ]
 }
-
-
