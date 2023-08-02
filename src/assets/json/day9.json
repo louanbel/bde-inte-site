@@ -8,10 +8,10 @@
       "description": "Découvre l'ensemble des clubs du BDA ! Chaque respo club sera présent afin de te présenter son club. N'hésite pas à t'y rendre afin de connaître l'ensemble des clubs proposés à l'école (mix, JDR, jeux vidéos, pâtisserie...) ! "
     },
      {
-      "img": "../assets/img/photo24_clubbda.png",
+      "img": "../assets/img/logo/bds.png",
       "name": "SOIREE BDS",
       "hours": "20H-01H",
-      "description": " description à faire et photo à changer"
+      "description": "Viens t'amuser avec nous lors de la soirée organisée par le BDS. Au programme : du sport, des jeux et beaucoup de fun ! "
     }
   ]
 }
