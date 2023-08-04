@@ -704,7 +704,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="9189830142177590360" datatype="html">
-        <source> Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi t’introduire à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le WEI, deux week-ends phares de l’intégration à l’IMT Atlantique.
+        <source> Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi t’introduire à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le WEI, 2 week-ends phares de l’intégration à l’IMT Atlantique.
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
@@ -906,7 +906,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4865241784502836852" datatype="html">
-        <source> PRIX : 150€ - tout compris : logement, repas, activité, trajet <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/></source>
+        <source> PRIX : 150€ - tout compris : Logement, repas, activité, trajet <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">38,39</context>
