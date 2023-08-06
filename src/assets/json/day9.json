@@ -8,10 +8,10 @@
       "description": "Découvre l'ensemble des clubs du BDA ! Chaque respo club sera présent afin de te présenter son club. N'hésite pas à t'y rendre afin de connaître l'ensemble des clubs proposés à l'école (mix, JDR, jeux vidéos, pâtisserie...) ! "
     },
      {
-      "img": "../assets/img/logo/bds.png",
+      "img": "../assets/img/bds_casino.jpg",
       "name": "SOIREE BDS",
       "hours": "20H-01H",
-      "description": "Viens t'amuser avec nous lors de la soirée organisée par le BDS. Au programme : du sport, des jeux et beaucoup de fun ! "
+      "description": "C'est maintenant au BDS d'organiser une soirée. Viens profiter du casino organisé à la MDE. Ils n'ont qu'un seul conseil à te donner : Après Mines-Ponts, mise bon."
     }
   ]
 }
