@@ -9,24 +9,6 @@
         "locales": {
           "en-US": {
             "translation": "src/locale/messages.en.xlf"
-          },
-          "en-CA": {
-            "translation": "src/locale/messages.en.xlf"
-          },
-          "en-GB": {
-            "translation": "src/locale/messages.en.xlf"
-          },
-          "en-AU": {
-            "translation": "src/locale/messages.en.xlf"
-          },
-          "en-NZ": {
-            "translation": "src/locale/messages.en.xlf"
-          },
-          "en-IN": {
-            "translation": "src/locale/messages.en.xlf"
-          },
-          "en-ZA": {
-            "translation": "src/locale/messages.en.xlf"
           }
         }
       },
@@ -99,7 +81,7 @@
             },
             "fr": {
               "browserTarget": "bde-inte-site:build:development,fr-FR"
-            }
+            },
             "production": {
               "browserTarget": "bde-inte-site:build:production"
             },
