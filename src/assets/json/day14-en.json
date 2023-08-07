@@ -1,0 +1,23 @@
+{
+  "day": "THURSDAY 07",
+  "events": [
+    {
+      "img": "../assets/img/unidays.png",
+      "name": "UNIDAYS Day",
+      "hours": "10 am - 6 pm",
+      "description": "Unidays will be at the MDE to introduce you to its website, where you can find all the student discounts, win prizes and enjoy a snack!"
+    },
+    {
+      "img": "../assets/img/photo31_olimtpe.png",
+      "name": "AFTERWORK OL.IMT.PE",
+      "hours": "4 pm - 6 pm",
+      "description": "Ol.imt.pe is the association that fights against SGBV on campus, particularly at parties. You'll be able to find out more about the association during this afterwork, and ask any questions you may have. There will also be a round-table discussion on how to deal with these problems in general."
+    },
+    {
+      "img": "../assets/img/photo32_oenologie.png",
+      "name": "AFTERWORK WINE CLUB",
+      "hours": "19H - 21H",
+      "description": "Discover the Cave à V'IMT, IMT's wine club! The club invites you to taste regional wines, while getting tips and tricks on how to decipher wine. The event will be accompanied by a cheese platter and a DJ set!"
+    }
+  ]
+}

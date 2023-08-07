@@ -62,8 +62,13 @@
                 }
 
                 p {
-                    font-size: 25px;
+                    font-size: 20px;
                     line-height: 1.6;
+                }
+                .hour {
+                    font-size: 24px;
+                    line-height: 1.6;
+
                 }
             }
         }
@@ -151,14 +156,14 @@
 
 @media (max-width:800px) {
     :host .clubs .club img {
-        height: 200px;
+        height: auto;
     }
 
     :host .clubs .club .detail {
-
+        margin-left: 5px;
 
         h3 {
-            font-size: 25px;
+            font-size: 22px;
             margin-bottom: 5px;
         }
 
@@ -166,6 +171,11 @@
             font-size: 15px;
             margin: 0;
         }
+        .hour {
+            font-size: 17px;
+            margin: 0;
+        }
+
     }
 
 }

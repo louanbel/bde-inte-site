@@ -1,0 +1,23 @@
+{
+  "day": "JEUDI 24",
+  "events": [
+    {
+      "img": "../assets/img/photo10_brunchbds.jpg",
+      "name": "BDS BRUNCH",
+      "hours": "11 am - 2 pm",
+      "description": "Come and enjoy a balanced diet at the brunch organized by the Bureau des Sports! Waffles, pancakes, fruit juices, coffees, eggs, cakes... Fill up on vitamins for just 2€."
+    },
+    {
+      "img": "../assets/img/photo11_visitebda.jpg",
+      "name": "VISIT NANTES BDA",
+      "hours": "1 pm - 6 pm",
+      "description": "The BDA is organizing a tour of Nantes for anyone interested in discovering the city where you'll be spending the next 3 years."
+    },
+    {
+      "img": "../assets/img/photo1_barbec.jpg",
+      "name": "BDE BARBECUE",
+      "hours": "6 - 10 pm",
+      "description": "Don't miss the first evening at IMT Atlantique! The BDE is offering a free barbecue where you can meet people for the first time."
+    }
+  ]
+}

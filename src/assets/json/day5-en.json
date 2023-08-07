@@ -1,0 +1,17 @@
+{
+  "day": "Monday 28",
+  "events": [
+    {
+      "img": "../assets/img/photo18_bdx.jpg",
+      "name": "PRESENTATION OF THE OFFICES",
+      "hours": "6 pm - 7 pm",
+      "description": "During this afterwork session, you'll find out all about the various campus offices that make student life so lively. Each office will introduce itself and explain its role in detail, so you can get a better idea of what life on campus is all about!"
+    },
+    {
+      "img": "../assets/img/photo5_karaokaisse.jpg",
+      "name": "KARAOKAISSE",
+      "hours": "9 pm - 1 am",
+      "description": "Karaokaisse is an ITM tradition. Would you like to sing at the top of your lungs while getting boozed-up? Then this is the party for you!"
+    }
+  ]
+}

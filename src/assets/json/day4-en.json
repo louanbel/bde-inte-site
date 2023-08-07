@@ -1,0 +1,23 @@
+{
+  "day": "DIMANCHE 27",
+  "events": [
+    {
+      "img": "../assets/img/photo15_brunchbda.jpg",
+      "name": "BDA BRUNCH",
+      "hours": "11 am - 2 pm",
+      "description": "The BDA is offering a Summer Brunch, to help you recover from yesterday and get today off to a good start! You can also watch a movie at the MDE."
+    },
+    {
+      "img": "../assets/img/photo16_aprembds.jpg",
+      "name": "BDS AFTERNOON",
+      "hours": "2 pm - 6 pm",
+      "description": "The BDS invites you to an afternoon of sport! On the program: beach volleyball, Spikeball, ping pong, ultimate... All you need to know about ITM's flagship sports!"
+    },
+    {
+      "img": "../assets/img/photo17_cinemines.jpg",
+      "name": "CINEMINES",
+      "hours": "8 pm - 10:30 pm",
+      "description": "The BDA film club is screening a film at the MDE, as it does every Sunday evening! Popcorn is available, so bring your ecocup."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "day": "SAMEDI 26",
+  "events": [
+    {
+      "img": "../assets/img/photo13_brunchbdd.jpg",
+      "name": "BDD BRUNCH",
+      "hours": "10 am - 1 pm",
+      "description": "Now it's BDD's turn to treat your taste buds to a 100% vegan brunch for just €2!"
+    },
+    {
+      "img": "../assets/img/photo3_rallye.jpg",
+      "name": "NANTES RALLY",
+      "hours": "1:30 pm - 6 pm",
+      "description": "Another integration classic, and surely one of its best activities. Discover Nantes from a whole new angle. Don't forget your swimsuit (you never know)."
+    },
+    {
+      "img": "../assets/img/photo14_neon.jpg",
+      "name": "TONUS BDE",
+      "hours": "9 pm - 4 am",
+      "description": "I hope you're in good shape for the first BDE tonus of the integration. The theme will be revealed a little later..."
+    }
+  ]
+}

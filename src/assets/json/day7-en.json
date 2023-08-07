@@ -1,0 +1,17 @@
+{
+  "day": "WEDNESDAY 30",
+  "events": [
+    {
+      "img": "../assets/img/photo8_contest.jpg",
+      "name": "INTE CONTEST",
+      "hours": "4:30 pm - 7:30 pm",
+      "description": "Each of last year's lists defends its colors in a variety of games (Slip 'N Slide, tug-of-war...)! It's up to you to help your group win. You can also take part in the famous rap contender between the lists..."
+    },
+    {
+      "img": "../assets/img/cabaret_bda.png",
+      "name": "CABARET",
+      "hours": "9 pm - 3 am",
+      "description": "Discover ITM talents in this cabaret prepared by the BDA! You'll have the chance to see some unique performances, or even take part yourself and show off your talent!"
+    }
+  ]
+}

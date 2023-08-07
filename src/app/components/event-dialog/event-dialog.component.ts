@@ -17,7 +17,7 @@ export class EventDialogComponent {
   ) {
     console.log(data.id);
     this.http
-      .get<DayEvents>('assets/json/day' + data.id + '.json')
+      .get<DayEvents>('assets/json/day' + data.id + '-' + navigator.language.split('-')[0] + '.json')
       .subscribe((content: DayEvents) => {
         this.dayEvents = content;
       });

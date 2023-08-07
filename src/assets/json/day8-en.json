@@ -1,0 +1,17 @@
+{
+  "day": "THURSDAY 31",
+  "events": [
+    {
+      "img": "../assets/img/ja_patisserie.png",
+      "name": "AFTERWORK JA / CLUB PATISSERIE",
+      "hours": "6 pm - 20 pm",
+      "description": "Two presentations are on the program for this afterwork! You'll be able to take part in the baking club, which will delight our taste buds, or find out more about Junior Atlantique through a series of games!"
+    },
+    {
+      "img": "../assets/img/photo23_underwater.jpg",
+      "name": "TONUS BDE",
+      "hours": "21 pm - 3 am",
+      "description": "I hope you enjoyed the first BDE tonus. We've got some new surprises in store for the second..."
+    }
+  ]
+}

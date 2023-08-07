@@ -1,0 +1,17 @@
+{
+  "day": "TUESDAY 29",
+  "events": [
+    {
+      "img": "../assets/img/photo19_afterworkbdd.png",
+      "name": "AFTERWORK BDD",
+      "hours": "4 - 7 pm",
+      "description": "The BDD is proposing 2 activities during this after-work session: planting flowers to take home and reusing everyday waste. Don't hesitate to attend this after-work session to ask any questions you may have about the BDD!"
+    },
+    {
+      "img": "../assets/img/photo6_convi.jpg",
+      "name": "CONVIS RALLY",
+      "hours": "9 pm - 4 am",
+      "description": "During the rally, you'll visit the 2A convis, where you'll take part in team games. The evening will end at the MDE once you've visited all the rooms!"
+    }
+  ]
+}

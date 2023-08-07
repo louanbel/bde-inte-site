@@ -1,0 +1,17 @@
+{
+  "day": "FRIDAY 01",
+  "events": [
+    {
+      "img": "../assets/img/photo24_clubbda.png",
+      "name": "PRESENTATION OF BDA CLUBS",
+      "hours": "5 pm - 8 pm",
+      "description": "Discover all the BDA clubs! Each club president will be on hand to introduce you to their club. Don't hesitate to drop in to find out about all the clubs on offer at the school (mix, JDR, video games, pastry...)!"
+    },
+     {
+      "img": "../assets/img/bds_casino.jpg",
+      "name": "BDS PARTY",
+      "hours": "8 pm - 1 am",
+      "description": "Now it's BDS's turn to throw a party. Come and enjoy the casino at the MDE. They've got just one piece of advice for you: After Mines-Ponts, bet well (rhymes better in French)."
+    }
+  ]
+}

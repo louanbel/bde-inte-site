@@ -1,0 +1,17 @@
+{
+  "day": "TUESDAY 05",
+  "events": [
+    {
+      "img": "../assets/img/la-poste.jpeg",
+      "name": "La Poste Day",
+      "hours": "8 am - 6 pm",
+      "description": "La Poste will be on hand at the MDE all day to offer you a snack and goodies, as well as to present its best job offers!"
+    },
+    {
+      "img": "../assets/img/photo28_bdi.png",
+      "name": "AFTERWORK BDI",
+      "hours": "11 am - 2 pm",
+      "description": "It's BDI's turn to present itself! During this afterwork, you'll be able to find out about the various activities of the BDI while eating delicious snacks."
+    }
+  ]
+}

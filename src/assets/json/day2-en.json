@@ -1,0 +1,17 @@
+{
+  "day": "VENDREDI 25",
+  "events": [
+    {
+      "img": "../assets/img/photo12_batiments.jpg",
+      "name": "AFTERWORK BUILDING",
+      "hours": "5 pm - 7 pm",
+      "description": "Having trouble finding your way around the buildings? Don't panic, this inté tradition will help you see things more clearly (but no less blurry)!"
+    },
+    {
+      "img": "../assets/img/photo2_abc.jpg",
+      "name": "ABC PARTY",
+      "hours": "9 pm - 4 am",
+      "description": "Meet us at the MDE for this first integration tonus! The rules are simple: pick a costume that starts with the first letter of your first name. You can try to guess and remember everyone else's name!"
+    }
+  ]
+}

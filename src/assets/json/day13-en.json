@@ -1,0 +1,20 @@
+{
+  "day": "WEDNESDAY 06",
+  "events": [
+    {
+      "img": "../assets/img/photo29_asf.jpg",
+      "name": "AFTERWORK ASF",
+      "hours": "5 pm - 7 pm",
+      "description": "Find out more about ASF at this afterwork! Atlantique Sans Frontières is the school's charitable association, which organizes events on a variety of scales (global and local). If you're tempted by a human adventure, this is the association for you!"
+    },
+    {
+      "img": "../assets/img/dreamtonus.jpg",
+      "name": "TONUS BDE",
+      "hours": "9 pm - 3 am",
+      "description": "It's the last BDE tonic of the integration process, and a warm-up for the WEI. Don't miss it!"
+    }
+  ]
+}
+
+
+

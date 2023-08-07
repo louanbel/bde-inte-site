@@ -1,0 +1,20 @@
+{
+  "day": "MONDAY 04",
+  "events": [
+    {
+      "img": "../assets/img/photo26_kulturap.png",
+      "name": "AFTERWORK KULTURAP",
+      "hours": "6 pm - 8 pm",
+      "description": "Discover one of the school's most emblematic clubs: Kulturap! During this afterwork, a number of rap-related games will be on offer. Don't hesitate to join them if you want to produce some rap tracks!"
+    },
+    {
+      "img": "../assets/img/tonus_bda.png",
+      "name": "BDA PARTY",
+      "hours": "9 pm - 3 am",
+      "description": "Don't miss the themed evening organized by bda!"
+    }
+  ]
+}
+
+
+

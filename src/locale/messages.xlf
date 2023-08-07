@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="ngb.alert.close" datatype="html">
         <source>Close</source>
@@ -356,11 +356,71 @@
           <context context-type="linenumber">60,63</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6906374142692815696" datatype="html">
+        <source>Mardi 20h-22h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5971182629708352168" datatype="html">
+        <source>Mercredi 2Oh-22h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4293449815870522442" datatype="html">
+        <source>Vendredi 18h-19h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3130533075417625999" datatype="html">
+        <source>Lundi 20h30-23h et Mardi 18h-19h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8358412486306358873" datatype="html">
+        <source>Lundi 19h15-20h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4357689194079352018" datatype="html">
+        <source>Jeudi 16h30-18h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7435388297456193452" datatype="html">
         <source>ATHLETISME</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7536750121305188218" datatype="html">
+        <source>Vendredi 17h-18h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2767585359228316312" datatype="html">
+        <source>Mercredi 19h30-21h ou 21h-22h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2463069000175479376" datatype="html">
@@ -370,11 +430,36 @@
           <context context-type="linenumber">143</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="9124337273914753783" datatype="html">
+        <source>Lundi 21h-22p5</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="435575961656268314" datatype="html">
+        <source>Mardi 18h30-20h30 ou 20h30-22h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3347194632157191705" datatype="html">
         <source>TIR A L&apos;ARC</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1158812318479652276" datatype="html">
+        <source>Jeudi 15h-17h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">169</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7535366370797716417" datatype="html">
@@ -384,11 +469,32 @@
           <context context-type="linenumber">178</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="114733473328918360" datatype="html">
+        <source>Jeudi ou samedi après-midi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4940042224226830336" datatype="html">
         <source>VOILE</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7732782617209925560" datatype="html">
+        <source>Jeudi 12h45-19h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="208485049170821884" datatype="html">
+        <source>Jeudi 15h30-17h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">199</context>
         </context-group>
       </trans-unit>
       <trans-unit id="206391614103603797" datatype="html">
@@ -398,11 +504,25 @@
           <context context-type="linenumber">208</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4742791176805974358" datatype="html">
+        <source>Mercredi 19h30-21h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5766344390757519264" datatype="html">
         <source>ESCALADE</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7103882827087897598" datatype="html">
+        <source>Jeudi 14h-16h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">219</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4621258606414910779" datatype="html">
@@ -412,11 +532,60 @@
           <context context-type="linenumber">228</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="919876974321195652" datatype="html">
+        <source>Jeudi 13h-14h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="967609377047609392" datatype="html">
+        <source>Mardi et Jeudi 19h-20h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5283076445043679616" datatype="html">
+        <source>Mercredi 18h-19h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6515243174584339269" datatype="html">
+        <source>Lundi et mardi 19h30-21h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8336454811310267247" datatype="html">
+        <source>Mardi 18h-19h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">264</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5019020964688352414" datatype="html">
         <source>NATATION</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">273</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5137342917965281343" datatype="html">
+        <source>Jeudi 12h-13h45 et 17h15-19h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">274</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5930700032505094567" datatype="html">
+        <source>Samedi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">284</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5178967873466873876" datatype="html">
@@ -426,11 +595,53 @@
           <context context-type="linenumber">293</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5342555584254185710" datatype="html">
+        <source>Jeudi 15h30-17h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">294</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="155946100001457176" datatype="html">
         <source>AVIRON</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">303</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8460591414990754251" datatype="html">
+        <source>Jeudi 13h30-15h30 et Samedi 12h-14h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">304</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1049590447105108894" datatype="html">
+        <source>Jeudi 13h30-14h30 ou 14h30-15h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="386763887094002950" datatype="html">
+        <source>Mercredi ou jeudi 16h30-18h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">324</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1358429927391838588" datatype="html">
+        <source>Jeudi 18h-19h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3669515784612010143" datatype="html">
+        <source>Jeudi 13h30-16h30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">344</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3339560371570287733" datatype="html">
@@ -440,11 +651,25 @@
           <context context-type="linenumber">353</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="141931932405479424" datatype="html">
+        <source>Jeudi 14h15-16h45</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">354</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5262790964354653207" datatype="html">
         <source>TENNIS DE TABLE</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">363</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="316024146142202449" datatype="html">
+        <source>Lundi 17h45-19h</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">364</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2998223451983644761" datatype="html">
@@ -454,6 +679,17 @@
           <context context-type="linenumber">374</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5410315741884760322" datatype="html">
+        <source>Lundi 18h-19h15</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">375</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">385</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1380229215846463873" datatype="html">
         <source>MUSCULATION</source>
         <context-group purpose="location">
@@ -461,8 +697,8 @@
           <context context-type="linenumber">384</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5328697099213116160" datatype="html">
-        <source>LES CLUBS DU BDA </source>
+      <trans-unit id="3606514091007075316" datatype="html">
+        <source>LES CLUBS DU BDA</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
           <context context-type="linenumber">392</context>

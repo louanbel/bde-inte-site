@@ -1,0 +1,10 @@
+{
+  "day": "WEEKEND",
+  "events": [
+    {
+      "img": "../assets/img/photo9_feu.jpg",
+      "name": "WEC",
+      "description" : "It's Cohesion Weekend! You'll be able to meet all your classmates this weekend, as the Brestois arrive in Nantes. Take advantage of the organized events and meet your friends from Brest!"
+    }
+  ]
+}
