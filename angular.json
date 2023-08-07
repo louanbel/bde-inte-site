@@ -5,9 +5,29 @@
   "projects": {
     "bde-inte-site": {
       "i18n": {
-        "sourceLocale": "fr",
+        "sourceLocale": "fr-FR",
         "locales": {
-          "en-US": "src/locale/messages.en.xlf"
+          "en-US": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-CA": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-GB": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-AU": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-NZ": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-IN": {
+            "translation": "src/locale/messages.en.xlf"
+          },
+          "en-ZA": {
+            "translation": "src/locale/messages.en.xlf"
+          }
         }
       },
       "projectType": "application",
@@ -23,6 +43,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
+            "i18nMissingTranslation": "error",
             "outputPath": "dist/bde-inte-site",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -37,6 +59,12 @@
             "scripts": []
           },
           "configurations": {
+            "en-US": {
+              "localize": ["en-US"]
+            },
+            "fr-FR": {
+              "localize": ["fr-FR"]
+            },
             "production": {
               "budgets": [
                 {
@@ -66,6 +94,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "en": {
+              "browserTarget": "bde-inte-site:build:development,en-US"
+            },
+            "fr": {
+              "browserTarget": "bde-inte-site:build:development,fr-FR"
+            }
             "production": {
               "browserTarget": "bde-inte-site:build:production"
             },

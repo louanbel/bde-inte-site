@@ -1,28 +1,881 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="2761418263256284368" datatype="html">
-        <source>DES EVENEMENTS </source>
-        <target>UNFORGETA&shy;BLE </target>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2494922439865215596" datatype="html">
-        <source>INOUBLIA&shy;BLES !!!</source>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source>
+          <x id="INTERPOLATION" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" /> of <x id="INTERPOLATION_1" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60750376914950798" datatype="html">
+        <source>REFERENTS VSS</source>
+        <target>VSS REFERENTS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7991238405945889751" datatype="html">
+        <source>PC SECURITE</source>
+        <target>SECURITY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7868464884508899307" datatype="html">
+        <source>ACCUEIL</source>
+        <target>HOME PAGE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5226815807418721198" datatype="html">
+        <source>WEI</source>
+        <target>WEI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="283145638756863919" datatype="html">
+        <source>INTEGRATION</source>
+        <target>INTEGRATION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3108408672318785425" datatype="html">
+        <source>CAMPUS</source>
+        <target>CAMPUS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215215795716907140" datatype="html">
+        <source>TA RENTREE</source>
+        <target>BACK-TO-SCHOOL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93265164162289634" datatype="html">
+        <source>ASSOS ET CLUBS</source>
+        <target>ASSO AND CLUBS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5797641820749140353" datatype="html">
+        <source>PREVENTION</source>
+        <target>PREVENTION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7150593562313015326" datatype="html">
+        <source>
+          <x id="START_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;ng-content&gt;" />
+          <x id="CLOSE_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;/ng-content&gt;" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/image-header/image-header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6259581666578119317" datatype="html">
+        <source>POLE INTE</source>
+        <target>INTEGRATION POLE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7150593562313015326" datatype="html">
+        <source>
+          <x id="START_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;ng-content&gt;" />
+          <x id="CLOSE_TAG_NG_CONTENT" ctype="x-ng_content" equiv-text="&lt;/ng-content&gt;" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/image-header/image-header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4676211646227573090" datatype="html">
+        <source>ASSOS ET CLUB</source>
+        <target>ASSOCIATION AND CLUB</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1318655857039559814" datatype="html">
+        <source>LES ASSOCIATIONS</source>
+        <target>ASSOCIATIONS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8339956080874793203" datatype="html">
+        <source>LES CLUBS SPORTIFS</source>
+        <target>SPORTS CLUBS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2762994987317126312" datatype="html">
+        <source> Découvre les clubs sportifs de l&apos;école, affiliés au BDS ! N&apos;hésites pas à
+          demander des renseignements aux respos sports mentionnés. </source>
+        <target>Discover the sports clubs of the school, affiliated with BDS! Don't hesitate to ask
+          for information from the sports respos mentioned.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7435388297456193452" datatype="html">
+        <source>ATHLETISME</source>
+        <target>ATHLETICS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2463069000175479376" datatype="html">
+        <source>DANSE</source>
+        <target>DANSE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3347194632157191705" datatype="html">
+        <source>TIR A L&apos;ARC</source>
+        <target>ARCHERY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7535366370797716417" datatype="html">
+        <source>PECHE</source>
+        <target>FISHING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4940042224226830336" datatype="html">
+        <source>VOILE</source>
+        <target>SAILING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="206391614103603797" datatype="html">
+        <source>BOXE</source>
+        <target>BOXING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5766344390757519264" datatype="html">
+        <source>ESCALADE</source>
+        <target>CLIMBING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4621258606414910779" datatype="html">
+        <source>TENNIS</source>
+        <target>TENNIS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5019020964688352414" datatype="html">
+        <source>NATATION</source>
+        <target>SWIMMING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">273</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5178967873466873876" datatype="html">
+        <source>GYMNASTIQUE</source>
+        <target>GYMNASTIC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">293</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="155946100001457176" datatype="html">
+        <source>AVIRON</source>
+        <target>ROWING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">303</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3339560371570287733" datatype="html">
+        <source>EQUITATION</source>
+        <target>HORSE RINDING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">353</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5262790964354653207" datatype="html">
+        <source>TENNIS DE TABLE</source>
+        <target>TABLE TENNIS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">363</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2998223451983644761" datatype="html">
+        <source>PILATES</source>
+        <target>PILATES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">374</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1380229215846463873" datatype="html">
+        <source>MUSCULATION</source>
+        <target>BODYBUILDING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">384</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5328697099213116160" datatype="html">
+        <source>LES CLUBS DU BDA </source>
+        <target>BDA CLUBS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">392</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6076033329052569809" datatype="html">
+        <source> Tu trouveras ci-dessous la liste des clubs non sportifs, assimilés au BDA ! Les
+          noms des respos clubs sont rappelés si tu veux leur demander des informations ! </source>
+        <target> You will find below the list of non-sporting clubs, assimilated to the BDA! The
+          names of the respos clubs are given below if you want to ask them for information! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">395,399</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5601323489835051375" datatype="html">
+        <source>OENOLOGIE</source>
+        <target>OENOLOGY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">413</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4494373379775515168" datatype="html">
+        <source>ROBOTIQUE</source>
+        <target>ROBOTICS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">440</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4281110930246117929" datatype="html">
+        <source>DANSE LATINE</source>
+        <target>LATIN DANCE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6921503943140460411" datatype="html">
+        <source>MUSIQUE</source>
+        <target>MUSIC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">458</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3904672123841357479" datatype="html">
+        <source>PHOTO</source>
+        <target>PICTURE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">467</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2503058010050231868" datatype="html">
+        <source>JEUX VIDEOS</source>
+        <target>VIDEO GAMES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">485</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5289115834382339128" datatype="html">
+        <source>PATISSERIE</source>
+        <target>PATISSERIE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">494</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6554595074064693457" datatype="html">
+        <source>ECHEC</source>
+        <target>CHESS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">503</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="946434619924794886" datatype="html">
+        <source>JEUX DE RÔlES</source>
+        <target>RP GAMES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">521</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="407085422131673632" datatype="html">
+        <source>FANFARE</source>
+        <target>FANFARE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">530</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1134553090175103262" datatype="html">
+        <source>DESSIN</source>
+        <target>DRAWING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">548</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5521890409040528727" datatype="html">
+        <source>JEUX DE SOCIETE</source>
+        <target>BOARD GAMES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/assos-club/assos-club.component.html</context>
+          <context context-type="linenumber">557</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4679802168086100619" datatype="html">
+        <source>La Maison des élèves (meudeuh)</source>
+        <target>La Maison des élèves (meudeuh)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6999679837797380951" datatype="html">
+        <source> Le lieu incontournable de notre campus est la MDE (meudeuh), ouverte de 8h à 1h, 3h
+          les jours d’opé. C’est là que se déroulent toutes les soirées étudiantes (tonus). Il y a
+          aussi le Traquenard (Traq), bar et cuisine de l’école, ou encore des baby-foot et une
+          table de billard à l’étage ! Les bureaux de l’administration se trouvent à l’étage de la
+          MDE. Il y a aussi les salles réservées aux différents BDX. Tu peux aussi y réserver des
+          salles, qui sont disponibles jusqu’à 3h sous réserve d’avoir un garant sobre. Demande à
+          Rudy Pierronnet sur Messenger si tu veux en réserver une ! Des casiers sont aussi
+          disponibles sur demande pour y laisser tes affaires en soirée. </source>
+        <target>The place to be on our campus is the MDE (meudeuh), open from 8am to 1am, 3am on
+          operation days. This is where all the student parties take place (tonus). There's also the
+          Traquenard (Traq), the school bar and kitchen, as well as table soccer and a pool table
+          upstairs! The administration offices are on the first floor of the MDE. There are also
+          rooms reserved for the various BDX. You can also reserve rooms here, which are available
+          until 3 a.m. provided you have a sober guarantor. Ask Rudy Pierronnet on Messenger if you
+          want to reserve one! Lockers are also available on request, where you can leave your
+          belongings for the evening.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">9,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8101059452717062334" datatype="html">
+        <source>Les hébergements</source>
+        <target>Lodgings</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4569384551163829615" datatype="html">
+        <source> 50 T1 bis d&apos;environ 30 m2 sont meublés d&apos;un lit, d&apos;un bureau,
+          d&apos;un coin cuisine(réfrigérateur, plaque de cuisson) 557 studios : tous les studettes
+          sont identiques en équipement et taille (18m²) et disposent de l&apos;essentiel pour
+          permettre à chaque élève de vivre confortablement : Salle de bain avec douche, WC et
+          lavabo Coin cuisine avec plaque électrique, frigo, évier, prises électriques Chambre avec
+          lit simple, un (très) grand bureau, chaise de bureau, table de nuit, étagères, armoire,
+          table, tabouret, connexion réseau et prise TV </source>
+        <target>50 T1 bis of around 30 m2 are furnished with a bed, desk, kitchenette (fridge, hob)
+          557 studios: all studettes are identical in size and equipment (18m²) and have the
+          essentials to enable each student to live comfortably: Bathroom with shower, WC and
+          washbasin Kitchenette with electric hob, fridge, sink, electrical sockets Bedroom with
+          single bed, a (very) large desk, desk chair, bedside table, shelves, wardrobe, table,
+          stool, network connection and TV wall plug.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">35,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5134549426446766245" datatype="html">
+        <source>Le gymnase</source>
+        <target>The gym</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8587974391725190707" datatype="html">
+        <source> Le gymnase est à disposition de tout les étudiants de l’école de 7h à 23h. Tu peux
+          le réserver en allant sur la page Facebook du BDS (la démarche y est expliquée). La salle
+          de sport à l’étage est ouverte à tous, sans réservation ! Un coach sportif y est parfois
+          présent pour te donner des conseils. Pense bien à prendre ta carte étudiant pour y accéder
+          ! Si la porte principale est fermée, tu peux toujours passer par l’entrée sur le côté du
+          gymnase. Un street-workout tout neuf est aussi disponible en face du gymnase ! Tu peux
+          aussi profiter du city-stade ou des terrains de tennis en ayant sur toi la carte étudiante
+          de l’école. </source>
+        <target>The gym is available to all students from 7am to 11pm. You can reserve it by going
+          to the BDS Facebook page (the procedure is explained there). The gym upstairs is open to
+          all, without reservation! A sports coach is sometimes on hand to give you advice. Remember
+          to take your student card with you! If the main door is closed, you can always use the
+          entrance at the side of the gym. There's also a brand-new street-workout in front of the
+          gym! You can also use the city-stadium or tennis courts if you have your school student
+          card with you.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">51,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1248478961308741869" datatype="html">
+        <source>La Restauration</source>
+        <target>The restoration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1981772760385538807" datatype="html">
+        <source> Notre campus comporte un Restaurant Universitaire (RU). Tu pourras y manger le
+          midi, et même le soir si tu as la flemme de cuisiner. Les horaires d’ouverture sont de
+          11h30 à 13h45 le midi et de 18h30 à 19h45 le soir, tous les jours de la semaine, mais il
+          est fermé le vendredi soir et le week-end. Chaque repas coûte 3,65€ pour 3 unités. Tu
+          auras besoin de ta carte étudiante pour payer les repas. Tu peux y mettre la somme que tu
+          veux dessus à l’aide de ta carte bancaire via le site PopAndPay (code site : IMT44).
+          Attention ! Il y a beaucoup de monde de 12h15 à 12h45. Un CROUS est aussi disponible à 5
+          minutes à Polytech, et propose des repas à 1€ pour les boursiers. </source>
+        <target>Our campus has a university restaurant (RU). You can eat there at lunchtime, and
+          even in the evening if you're too lazy to cook. Opening hours are 11:30 a.m. to 1:45 p.m.
+          at lunchtime and 6:30 p.m. to 7:45 p.m. in the evening, every day of the week, but it's
+          closed on Friday evenings and weekends. Each meal costs €3.65 for 3 units. You'll need
+          your student card to pay for meals. You can put any amount you like on it using your bank
+          card via the PopAndPay website (site code: IMT44). Please note! It's very busy from 12:15
+          to 12:45. There's also a CROUS 5 minutes away at Polytech, offering meals at €1 for
+          scholarship holders.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">83,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6368988880045210675" datatype="html">
+        <source>Salles MDE mises à disposition</source>
+        <target>MDE rooms available </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3856574289728179108" datatype="html">
+        <source>SALLE MUSIQUE</source>
+        <target>MUSIC ROOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2028919870566795540" datatype="html">
+        <source> Cette salle est à disposition de tous avec à l’intérieur du matériel de musique et
+          des instruments : piano, guitare ... Pour y avoir accès contactez Illian BEN AMAR sur
+          Messenger. Vous pouvez réserver la salle sur la <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/919121721474998&quot;
+            &gt;" />page
+          Facebook du club de musique.<x id="CLOSE_LINK" ctype="x-a"
+            equiv-text="&lt;/a
+          &gt;" /></source>
+        <target>This room is available to all, with musical equipment and instruments inside: piano,
+          guitar... To get access, contact Illian BEN AMAR on Messenger. You can reserve the room on
+          the <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/919121721474998&quot;
+          &gt;" />music
+          club's Facebook page. <x id="CLOSE_LINK" ctype="x-a"
+            equiv-text="&lt;/a
+        &gt;" /></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">111,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7128824465147685152" datatype="html">
+        <source>SALLE MIX</source>
+        <target>MIX ROOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5859395732635859463" datatype="html">
+        <source> La salle mix peut être réservée sur la <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/777875979434111&quot;
+            &gt;" />page
+          facebook du club mix<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+          &gt;" />.
+          La démarche pour le faire y est expliquée. Vois avec Victor Gauthier ou les membres du BR
+          BDE pour te l’ouvrir ! </source>
+        <target>The mix room can be booked on the <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/777875979434111&quot;
+          &gt;" />club
+          mix facebook page<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+        &gt;" />. The
+          procedure is explained therZe. Ask Victor Gauthier or the members of the BR BDE to open it
+          for you! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">129,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8579012128203941296" datatype="html">
+        <source>SALLE DE REU</source>
+        <target>MEETING ROOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="223679222917735302" datatype="html">
+        <source> Une salle de réunion est disponible. Attention, les associations et clubs sont
+          prioritaires pour y accéder ! La salle est pourvue d’une grande table et de nombreux
+          sièges. Pour la réserver, demande à Rudy Pierronnet sur Messenger. </source>
+        <target>A meeting room is available. Please note that associations and clubs have priority
+          access! The room is equipped with a large table and plenty of seating. To reserve it, ask
+          Rudy Pierronnet on Messenger.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">145,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="567713743836575572" datatype="html">
+        <source>SALLE AFTER</source>
+        <target>AFTER-PARTY ROOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7438976650566740294" datatype="html">
+        <source> La salle d’after est parfaite pour...faire des afters ! Elle est disponible jusqu’à
+          3h en soirée sous réserve d’avoir un garant sobre. Demande à Rudy Pierronnet si tu veux la
+          réserver, mais c’est aux agents de sécurité que tu devras demander de rester plus tard. </source>
+        <target>The after-party room is perfect for...afters! It's available until 3pm, provided you
+          have a sober guarantor. Ask Rudy Pierronnet if you'd like to reserve it, but you'll have
+          to ask the security guards to stay later.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/campus/campus.component.html</context>
+          <context context-type="linenumber">160,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2761418263256284368" datatype="html">
+        <source>DES EVENEMENTS </source>
+        <target>UNFORGETABLE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="391036154154430568" datatype="html">
+        <source>INOUBLIA­BLES !!!</source>
         <target>EVENTS !!!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2868428261922668772" datatype="html">
         <source>Du 24 août au </source>
-        <target>From august 24 to </target>
+        <target>August 24 to </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
@@ -30,7 +883,7 @@
         <source>10 septembre</source>
         <target>September 10</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
@@ -38,80 +891,93 @@
         <source> Plus d&apos;infos </source>
         <target> More details </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">22,24</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">28,30</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">42,44</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">54,56</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">62,64</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">80,82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3262235722383529385" datatype="html">
         <source>LE WEI</source>
         <target>WEI</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5198063369584975881" datatype="html">
         <source>8 - 9 </source>
-        <target>September </target>
+        <target>8 to 9 </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="519786873076765749" datatype="html">
         <source>septembre</source>
-        <target>8 - 9</target>
+        <target>September</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4451635295590193723" datatype="html">
         <source>PREPARE TA </source>
-        <target>PREPARE YOUR </target>
+        <target>GET READY FOR </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9054949493529018988" datatype="html">
-        <source>RENTREE !</source>
-        <target>BACK TO SCHOOL !</target>
+      <trans-unit id="2605497522994393944" datatype="html">
+        <source>RENTREE SCOLAIRE !</source>
+        <target>BACK-TO-SCHOOL !</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2325520967663643389" datatype="html">
         <source>Vendredi 25 </source>
-        <target>Friday 25 </target>
+        <target>Friday, August </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6277255051260713242" datatype="html">
         <source>août</source>
-        <target>august</target>
+        <target>25</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="sourcefile">src/app/views/home/home.component.html</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9189830142177590360" datatype="html">
+      <trans-unit id="283145638756863919" datatype="html">
+        <source>INTEGRATION</source>
+        <target>INTEGRATION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2507857031527575519" datatype="html">
         <source> Voici le programme de l’intégration ! Pendant ces 3 semaines de folies, tu vas
           pouvoir rencontrer ta promo grâce aux nombreux évènements organisés. De quoi t’introduire
-          à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le WEI, deux week-ends
-          phares de l’intégration à l’IMT Atlantique.
-</source>
+          à ta nouvelle vie étudiante ! Ne manque surtout pas le WEC et le WEI, 2 week-ends phares
+          de l’intégration à l’IMT Atlantique.
+        </source>
+        <target>Here is the integration program! During these 3 weeks of madness, you will be able
+          to meet your promo thanks to the many events organized. What an introduction to your new
+          student life! Do not miss the WEC and the WEI, 2 key weekends for integration into IMT
+          Atlantique.
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">4,9</context>
@@ -119,6 +985,7 @@
       </trans-unit>
       <trans-unit id="1661298874688424556" datatype="html">
         <source>SEMAINE 1</source>
+        <target>FIRST WEEK</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">11</context>
@@ -126,21 +993,19 @@
       </trans-unit>
       <trans-unit id="5123864005520666824" datatype="html">
         <source>JEUDI </source>
+        <target>THURSDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">15,16</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">58,59</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">93,94</context>
+          <context context-type="linenumber">96,97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7253601662653500897" datatype="html">
         <source>VENDREDI </source>
+        <target>FRIDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">20,21</context>
@@ -152,6 +1017,7 @@
       </trans-unit>
       <trans-unit id="5054957473630015898" datatype="html">
         <source>SAMEDI </source>
+        <target>SATURDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">25,26</context>
@@ -159,6 +1025,7 @@
       </trans-unit>
       <trans-unit id="1293477058786024914" datatype="html">
         <source>DIMANCHE </source>
+        <target>SUNDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">30,31</context>
@@ -166,17 +1033,15 @@
       </trans-unit>
       <trans-unit id="3374680739988373524" datatype="html">
         <source>SEMAINE 2</source>
+        <target>SECOND WEEK </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="7957775969099478975" datatype="html">
         <source>LUNDI </source>
+        <target>MONDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">43,44</context>
@@ -188,6 +1053,7 @@
       </trans-unit>
       <trans-unit id="635943589388801730" datatype="html">
         <source>MARDI </source>
+        <target>TUESDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">48,49</context>
@@ -199,31 +1065,38 @@
       </trans-unit>
       <trans-unit id="5734813929497935150" datatype="html">
         <source>MERCREDI </source>
+        <target>WEDNESDAY </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">53,54</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">88,89</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="5456503408985026270" datatype="html">
         <source>WEEK-END </source>
+        <target>WEEK-END </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
           <context context-type="linenumber">68,69</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">98,99</context>
+          <context context-type="linenumber">101,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7209618005292229013" datatype="html">
+        <source>SEMAINE 3</source>
+        <target>THIRD WEEK </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8637671970468487337" datatype="html">
         <source>Parrainage</source>
+        <target>Sponsorship</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2834914949689344893" datatype="html">
@@ -232,47 +1105,62 @@
           nouvel arrivant et deviendra son parrain !<x id="LINE_BREAK" ctype="lb"
             equiv-text="&lt;br /&gt;" />Ton parrain te prendra sous son aile et te fera découvrir
           les nombreuses traditions de l’école qui feront de toi le parfait Atlante ! </source>
+        <target>When you arrive, you will meet many first years like you, but also second years.
+          Just after the WEI, each second year will choose a newcomer and become their sponsor!<x
+            id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br /&gt;" />Your sponsor will take you under his wing and introduce you
+          to the many traditions of the school that will make you the perfect Atlantean! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">109,115</context>
+          <context context-type="linenumber">112,118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="746645700732516370" datatype="html">
         <source>Etape 1</source>
+        <target>STEP 1</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9127667309064187765" datatype="html">
         <source> Rempli ce petit questionnaire afin que ton parrain puisse te choisir en fonction de
           vos centres d’intérêts communs ! </source>
+        <target>Fill out this short questionnaire so that your sponsor can choose you based on your
+          common interests!
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">122,125</context>
+          <context context-type="linenumber">125,128</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8777455339156847891" datatype="html">
         <source>Etape 2</source>
+        <target>Step 2</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7739100326465769470" datatype="html">
         <source> Ca y est ton parrain t’as choisi(e) ! Tu vas maintenant recevoir par SMS des défis
           à réaliser, avec pour chaque défi réussi, un indice sur l’identité de ton parrain. Aucun
           défi n’est obligatoire, ne fais pas ce que tu n’as pas envie de faire. </source>
+        <target>That's it, your godfather has chosen you! You will now receive challenges to
+          complete by SMS, with for each successful challenge, a clue to the identity of your
+          sponsor. No challenge is mandatory, don't do what you don't want to do.
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">139,144</context>
+          <context context-type="linenumber">142,147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6521137641680389094" datatype="html">
         <source>Etape 3</source>
+        <target>Step 3</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4608469068564898705" datatype="html">
@@ -281,16 +1169,22 @@
           Trouve ton parrain grâce aux indices récoltés !<x id="LINE_BREAK" ctype="lb"
             equiv-text="&lt;br /&gt;" /><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />
           Bon courage ! </source>
+        <target>After a long week filled with challenges of all kinds, I hope you have collected
+          enough clues. It's now time for the godparents reveal party. Find your sponsor thanks to
+          the clues collected!<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br /&gt;" /><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />GOOD
+          LUCK ! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">150,156</context>
+          <context context-type="linenumber">153,159</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6153040046159335475" datatype="html">
         <source>Etape 4</source>
+        <target>Step 4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5233347878302389259" datatype="html">
@@ -298,14 +1192,377 @@
           les deuxièmes années forment tous des familles avec leurs potes. Cela te permettra de
           rencontrer d’autres deuxièmes années ainsi que leurs filleuls. Profite de tes repas de
           famille tout au long de l’année ! </source>
+        <target>Have you found your sponsor? He will now introduce you to your new family: the
+          second years are all forming families with their friends. This will allow you to meet
+          other second years and their godchildren. Enjoy your family meals all year round!
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/integration/integration.component.html</context>
-          <context context-type="linenumber">164,170</context>
+          <context context-type="linenumber">167,173</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5797641820749140353" datatype="html">
+        <source>PREVENTION</source>
+        <target>PREVENTION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="183332990097734076" datatype="html">
+        <source>OL&apos;IMT&apos;PE</source>
+        <target>OL&apos;IMT&apos;PE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8443102336684259257" datatype="html">
+        <source> OL&apos;IMT&apos;PE est l’association qui lutte contre les Violences Sexistes et
+          Sexuelles au sein de notre école. </source>
+        <target>OL&apos;IMT&apos;PE is the association that fights against Sexist and Sexual
+          Violence in our school.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1106146959150462742" datatype="html">
+        <source>NOTRE TEAM</source>
+        <target>OUR TEAM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7505837935795336801" datatype="html">
+        <source>Les référents</source>
+        <target>Referents</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6279582304385086591" datatype="html">
+        <source> Le rôle des référents VSS est de t’écouter, de t’accompagner et de recueillir des
+          témoignages. Ils seront toujours à ta disposition pour t’écouter dans le respect. Toute
+          information reste bien entendu confidentielle et secrete. Ils peuvent relayer les
+          informations à l’école si besoin.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />
+          Retrouve leur contact en bas de cette page. </source>
+        <target>The role of the VSS referents is to listen to you, support you and collect
+          testimonials. They will always be at your disposal to listen to you with respect. All
+          information remains of course confidential and secret. They can relay the information to
+          the school if necessary.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">30,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73697733271054242" datatype="html">
+        <source>Respo com</source>
+        <target>COM officiers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4286486462715825404" datatype="html">
+        <source> Le rôle des respos communication est d’assurer la communication autour du sujet des
+          VSS. Ils créent des visuels dans le but d’informer et de prévenir des risques. </source>
+        <target>The role of communication respos is to ensure communication around the subject of
+          GBV. They create visuals with the aim of informing and preventing risks. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8798390901703453071" datatype="html">
+        <source>Respo event</source>
+        <target>Event officiers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2705818166934872258" datatype="html">
+        <source> Le rôle du respo évènement est d’organiser les évènements de la team. Elle gère
+          aussi le planning des respos en soirée. </source>
+        <target>The role of the event manager is to organize the events of the team. She also
+          manages the evening rest schedule.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5762704420135392464" datatype="html">
+        <source>Respo sensibilisation</source>
+        <target>Outreach Officers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="582501300501929295" datatype="html">
+        <source> Le rôle du respo sensibilisation est de trouver des idées et des plans de
+          sensibilisation. Le but étant de sensibiliser le plus de personnes possibles à la cause de
+          lutte contre les VSS. </source>
+        <target>The role of the awareness manager is to come up with awareness ideas and plans. The
+          goal is to make as many people as possible aware of the cause of the fight against SGBV.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">80,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1130162225924510105" datatype="html">
+        <source>Respo partenariat</source>
+        <target>Sponsoring Officiers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3055155864466134365" datatype="html">
+        <source> Le rôle du respo partenariat est de gérer les partenariats avec d’autres
+          associations et de trouver des partenariats de formations. </source>
+        <target>The role of the partnership manager is to manage partnerships with other
+          associations and find training partnerships.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">98,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2279297274193907103" datatype="html">
+        <source>Respo soirées</source>
+        <target>Party Officiers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1423343873846632698" datatype="html">
+        <source> A chaque soirée, des responsables sobres sont présents : si tu es témoin ou victime
+          du moindre problème lors d’un évènement, n’hésites pas à les contacter. Ils sont formés
+          pour te venir en aide.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" /> Tu
+          pourras les reconnaître grâce à leurs brassards jaune fluo. </source>
+        <target>At each evening, sober leaders are present: if you are a witness or victim of the
+          slightest problem during an event, do not hesitate to contact them. They are trained to
+          help you.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />You will be able to
+          recognize them by their fluorescent yellow armbands. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">115,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3596975882988374028" datatype="html">
+        <source> Si tu souhaites toi aussi t’investir dans la cause, n’hésites pas à te manifester
+          auprès d’un des membres de la team ! </source>
+        <target>If you also want to get involved in the cause, don't hesitate to contact one of the
+          team members!
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/prevention/prevention.component.html</context>
+          <context context-type="linenumber">129,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4727650098818723478" datatype="html">
+        <source>C&apos;EST LA RENTREE !</source>
+        <target>IT'S BACK TO SCHOOL TIME!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8142622945907403187" datatype="html">
+        <source> Félicitations pour ton admission à IMT Atlantique ! Maintenant afin de préparer ta
+          rentrée au maximum, voici nos petits conseils. </source>
+        <target>Congratulations on your admission to IMT Atlantique! Here's some advice to help you
+          prepare for the start of your new school year.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6490686834690762718" datatype="html">
+        <source>LES DATES CLES</source>
+        <target>KEY DATES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1696874382766965687" datatype="html">
+        <source>23-24 août</source>
+        <target>23 to 24 August</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1292850052944465245" datatype="html">
+        <source> Il est temps pour toi de venir t’installer sur notre magnifique campus ! Nous
+          serons là pour t’accueillir, te donner tes clés et t’offrir quelques outils indispensables
+          à la vie d’atlante ... </source>
+        <target>It's time for you to come and settle in on our beautiful campus! We'll be there to
+          welcome you, give you your keys and offer you some essential tools for life as an
+          Atlantean...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">24,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2760628313774996891" datatype="html">
+        <source> Le début de l’intégration a sonné ! Viens te régaler aevc nous autour d’un barbecue
+          offert par le BDE. </source>
+        <target>It's the beginning of integration! Come and join us for a barbecue offered by the
+          BDE.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2305722394034746900" datatype="html">
+        <source>2-3 septembre : WEC</source>
+        <target>September 2-3: WEC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8925079376685510084" datatype="html">
+        <source> Tu t’es vu attribué un campus, mais IMT Atlantique c’est avant tout 3 campus soudé.
+          Profite de ce week-end pour rencontrer nos amis Brestois qui viennent nous rendre visite
+          sur le campus de Nantes. </source>
+        <target>You've been assigned a campus, but IMT Atlantique is first and foremost 3 close-knit
+          campuses. Take advantage of this weekend to meet our friends from Brest who are coming to
+          visit us on the Nantes campus.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">51,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3438005509609206934" datatype="html">
+        <source>8-9 septembre : WEI</source>
+        <target>September 8-9: WEI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5406300580148121587" datatype="html">
+        <source> Tu as survécu jusqu’ici ? Il est maintenant temps de conclure l’intégration en
+          beauté avec le Week-end d’intégration ! Ne rate surtout pas ce week-end qui promets d’être
+          inoubliable. </source>
+        <target>Have you survived this far? Now it's time to wrap up your integration in style with
+          the Integration Weekend! Don't miss this weekend, which promises to be unforgettable.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">65,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4569748502064912370" datatype="html">
+        <source>BIENVENUE CHEZ TOI !</source>
+        <target>WELCOME HOME !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9164323620028819499" datatype="html">
+        <source> Voilà à quoi ressemble ton nouveau chez toi. Libre à toi de le décorer comme tu le
+          souhaites pour te l’approprier ! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />Tous
+          les appartements sont équipés de la même manière : </source>
+        <target>This is what your new home looks like. It's up to you to decorate it as you like and
+          make it your own!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" />All apartments
+          are equipped in the same way: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4495795633998737776" datatype="html">
+        <source>Salle de bain avec douche, WC et lavabo</source>
+        <target>Bathroom with shower, toilet and washbasin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1757008263566827156" datatype="html">
+        <source> Coin cuisine avec plaque électrique, frigo, évier, prises électriques </source>
+        <target>Kitchenette with electric hob, fridge, sink and electrical sockets</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">86,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2613163273428259990" datatype="html">
+        <source> Chambre avec lit simple, un (très) grand bureau, chaise de bureau, table de nuit,
+          étagères, armoire, table, tabouret, connexion réseau et prise TV </source>
+        <target>Bedroom with single bed, (very) large desk, desk chair, bedside table, shelves,
+          wardrobe, table, stool, network connection and TV plug.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">89,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8917956887774248520" datatype="html">
+        <source>PLAN DU CAMPUS</source>
+        <target>CAMPUS PLAN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="677702895960923137" datatype="html">
+        <source>REJOINS LES GROUPES</source>
+        <target>JOIN OUR GROUPS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3651996962586277441" datatype="html">
+        <source> Afin d’être au courant en temps réel de ce qu’il se passe sur le campus, rejoins le <x
+            id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/1583067408869734/&quot;
+          &gt;" />groupe
+          facebook<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+        &gt;" /> ! </source>
+        <target> In order to be aware in real time of what is happening on campus, join the <x
+            id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;https://www.facebook.com/groups/1583067408869734/&quot;
+          &gt;" />facebook
+          group<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a
+          &gt;" /> ! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">119,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3129304548299911431" datatype="html">
+        <source> Si tu n’as pas été mis dans le groupe de ta promo à ton arrivée sur le campus,
+          demande à Roman Tomczak (sur messenger) de t’ajouter ! </source>
+        <target>If you weren't put in your promo's group when you arrived on campus, ask Roman
+          Tomczak (on
+          messenger) to add you!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/rentree/rentree.component.html</context>
+          <context context-type="linenumber">132,135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3340595223745124718" datatype="html">
         <source> LE WEI
-</source>
+        </source>
+        <target>WEI</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">1,3</context>
@@ -313,6 +1570,7 @@
       </trans-unit>
       <trans-unit id="653226980234840498" datatype="html">
         <source>LE WEI C’EST QUOI ?</source>
+        <target>WHAT IS WEI ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">6</context>
@@ -326,29 +1584,44 @@
           l&apos;occasion de faire connaissance avec les étudiants de l&apos;autre campus, car à
           l&apos;issue de ce week-end de folie, tu connaîtras toute la promo et seras un Atlante
           accompli. </source>
+        <target>To round off your weeks at school, the BDE organizes the WEI: the highlight of your
+          new year!<x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br /&gt;" />An unforgettable weekend in an unfamiliar place, with lots
+          of activities from morning to night and memorable evenings! It's also an opportunity to
+          get to know students from the other campus, because by the end of this crazy weekend,
+          you'll know the whole class and be an accomplished Atlantean. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">8,17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4865241784502836852" datatype="html">
-        <source> PRIX : 150€ - tout compris : Logement, repas, activité, trajet <x id="LINE_BREAK"
-            ctype="lb" equiv-text="&lt;br /&gt;" /></source>
+      <trans-unit id="2505317097228951342" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;" />Compris dans le prix<x
+            id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;" /> : Logement, repas, activité,
+          trajet <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" /></source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;" />Included in the price<x
+            id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;" /> : accommodation, meals,
+          activities, travel<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;" /></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">38,39</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="126101652492937495" datatype="html">
-        <source> Temps de trajet : Environ 2h en bus depuis Nantes (possibilité de venir en voiture
-          : contactez Léna Souami pour faire la demande) </source>
+      <trans-unit id="4764894967043060715" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;" />Temps de trajet<x
+            id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;" /> : Environ 2h en bus depuis
+          Nantes (possibilité de venir en voiture : contactez Léna Souami pour faire la demande) </source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;" />Journey time<x
+            id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;" /> : approx. 2 hours by bus
+          from Nantes (possibility of coming by car: contact Léna Souami to make a request) </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">41,44</context>
+          <context context-type="linenumber">42,44</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3310640819366821636" datatype="html">
-        <source>Je m&apos;inscris</source>
+      <trans-unit id="4178458244623400732" datatype="html">
+        <source>Ouverture des incriptions prochainement</source>
+        <target>Opening of registrations soon</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">50</context>
@@ -356,59 +1629,68 @@
       </trans-unit>
       <trans-unit id="4105064100770423771" datatype="html">
         <source>A NE PAS OUBLIER</source>
+        <target>DO NOT FORGET</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1621391427136919195" datatype="html">
-        <source> Voici une petite liste des choses que tu dois emporter pour passer un WEI parfait :</source>
+      <trans-unit id="3707393772246934171" datatype="html">
+        <source> Voici une petite liste des must have pour passer un WEI parfait : </source>
+        <target>Here is a small list of must haves for a perfect WEI : </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">74,77</context>
+          <context context-type="linenumber">74,76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="585524354869639498" datatype="html">
-        <source>1. Des lunettes de star</source>
+      <trans-unit id="6902309168384205415" datatype="html">
+        <source>Des lunettes de star</source>
+        <target>Star sunglasses</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3249404167410214287" datatype="html">
-        <source>3. Ton sourire et beaucoup d’énergie</source>
+      <trans-unit id="6418999774731374695" datatype="html">
+        <source>Ton sourire et beaucoup d’énergie</source>
+        <target>A huge smile and lots of energy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7897481164085868" datatype="html">
-        <source>2. De quoi prendre une bonne douche</source>
+      <trans-unit id="8799965321458056845" datatype="html">
+        <source>De quoi prendre une bonne douche</source>
+        <target>Enough gear for a good shower</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6168112290783148177" datatype="html">
         <source>La vraie liste</source>
+        <target>The real list</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6533949039294744306" datatype="html">
         <source>DE NOMBREUSES ACTIVITES ....</source>
+        <target>LOTS OF ACTIVITIES ....</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3455352451459101363" datatype="html">
-        <source> Pas d’inquiétude, avec toutes lees activités que nous t’avons préparé, tu ne risque
-          pas de t’ennuyer ! </source>
+      <trans-unit id="7325256975611523061" datatype="html">
+        <source> Pas d’inquiétude, avec toutes les activités que nous t’avons préparées, tu ne
+          risques pas de t’ennuyer ! </source>
+        <target>Don't worry, with all the activities we've prepared for you, you won't get bored!
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/wei/wei.component.html</context>
-          <context context-type="linenumber">118,121</context>
+          <context context-type="linenumber">117,120</context>
         </context-group>
       </trans-unit>
     </body>
